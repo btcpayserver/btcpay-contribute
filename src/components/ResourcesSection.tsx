@@ -66,7 +66,7 @@ interface VideoMeta {
   start?: number
 }
 
-function YoutubeThumbnail({ video }: { video: VideoMeta }) {
+function YoutubeThumbnail({ video, priority = false }: { video: VideoMeta; priority?: boolean }) {
   const [playing, setPlaying] = useState(false)
 
   if (playing) {
@@ -93,6 +93,8 @@ function YoutubeThumbnail({ video }: { video: VideoMeta }) {
       <img
         src={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`}
         alt=""
+        loading={priority ? 'eager' : 'lazy'}
+        fetchPriority={priority ? 'high' : 'low'}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent" aria-hidden="true" />
@@ -223,7 +225,7 @@ const STEPS = [
 ]
 
 function StepVisual({ index }: { index: number }) {
-  if (index === 0) return <YoutubeThumbnail video={DOC_VIDEO} />
+  if (index === 0) return <YoutubeThumbnail video={DOC_VIDEO} priority />
 
   if (index === 1) return <YoutubeThumbnail video={DEV_VIDEO} />
 

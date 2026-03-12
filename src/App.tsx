@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState, lazy, Suspense } from 'react'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import FilterBar from '@/components/FilterBar'
 import IssueGrid from '@/components/IssueGrid'
-import IssueModal from '@/components/IssueModal'
 import ResourcesSection from '@/components/ResourcesSection'
 import Footer from '@/components/Footer'
+
+const IssueModal = lazy(() => import('@/components/IssueModal'))
 import { useFilters } from '@/hooks/useFilters'
 import { useIssues } from '@/hooks/useIssues'
 import type { Issue } from '@/types'
@@ -51,10 +52,12 @@ export default function App() {
 
       <Footer />
 
-      <IssueModal
-        issue={selectedIssue}
-        onClose={() => setSelectedIssue(null)}
-      />
+      <Suspense fallback={null}>
+        <IssueModal
+          issue={selectedIssue}
+          onClose={() => setSelectedIssue(null)}
+        />
+      </Suspense>
     </>
   )
 }
