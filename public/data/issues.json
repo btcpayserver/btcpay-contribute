@@ -1,57 +1,71 @@
 {
-  "lastUpdated": "2026-03-11T11:20:00.000Z",
+  "lastUpdated": "2026-03-12T20:06:01.404Z",
   "totalIssues": 12,
   "repoCount": 5,
   "repos": [
     {
-      "id": 0,
-      "name": "directory.btcpayserver.org",
-      "fullName": "btcpayserver/directory.btcpayserver.org",
-      "description": null,
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org",
-      "language": null,
-      "topics": [],
-      "stars": 0
-    },
-    {
-      "id": 0,
-      "name": "btcpayserver-plugin-builder",
-      "fullName": "btcpayserver/btcpayserver-plugin-builder",
-      "description": null,
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
-      "language": null,
-      "topics": [],
-      "stars": 0
-    },
-    {
-      "id": 0,
+      "id": 100711978,
       "name": "btcpayserver",
       "fullName": "btcpayserver/btcpayserver",
-      "description": null,
+      "description": "Accept Bitcoin payments. Free, open-source & self-hosted, Bitcoin payment processor. ",
       "url": "https://github.com/btcpayserver/btcpayserver",
-      "language": null,
-      "topics": [],
-      "stars": 0
+      "language": "C#",
+      "topics": [
+        "bitcoin",
+        "bitcoin-payment-gateway",
+        "bitcoin-payment-processor",
+        "crowdfunding",
+        "lightning-network",
+        "payment-gateway",
+        "point-of-sale",
+        "selfhosted"
+      ],
+      "stars": 7440
     },
     {
-      "id": 0,
+      "id": 101657836,
       "name": "btcpayserver-doc",
       "fullName": "btcpayserver/btcpayserver-doc",
-      "description": null,
+      "description": "BTCPay Server Official Documentation",
       "url": "https://github.com/btcpayserver/btcpayserver-doc",
-      "language": null,
-      "topics": [],
-      "stars": 0
+      "language": "Shell",
+      "topics": [
+        "btcpayserver",
+        "documentation"
+      ],
+      "stars": 415
     },
     {
-      "id": 0,
+      "id": 249388671,
+      "name": "directory.btcpayserver.org",
+      "fullName": "btcpayserver/directory.btcpayserver.org",
+      "description": "BTCPay Server Directory - Merchants, Projects & Charities accepting Bitcoin",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org",
+      "language": "TypeScript",
+      "topics": [
+        "btcpayserver"
+      ],
+      "stars": 44
+    },
+    {
+      "id": 563141684,
+      "name": "btcpayserver-plugin-builder",
+      "fullName": "btcpayserver/btcpayserver-plugin-builder",
+      "description": "A server building plugins for BTCPay Server",
+      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
+      "language": "C#",
+      "topics": [],
+      "stars": 23
+    },
+    {
+      "id": 657155945,
       "name": "app",
       "fullName": "btcpayserver/app",
       "description": null,
       "url": "https://github.com/btcpayserver/app",
-      "language": null,
+      "language": "HTML",
       "topics": [],
-      "stars": 0
+      "stars": 21
     }
   ],
   "issues": [
@@ -78,7 +92,7 @@
       "repo": {
         "name": "directory.btcpayserver.org",
         "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": null,
+        "language": "TypeScript",
         "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
       },
       "assignees": [],
@@ -90,7 +104,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "TypeScript"
+      ]
     },
     {
       "id": 4046354134,
@@ -99,8 +115,8 @@
       "body": "Plugin Builder currently has no dedicated health check endpoint.\n\nSince startup depends on Postgres, Docker, and Azure Storage, it would be useful to expose a simple probe endpoint for deployments and monitoring.\n\nSuggested scope:\n- add `/health`\n- return `200 OK` when the app is ready to serve requests\n- return `503` when startup is incomplete or a critical dependency is unavailable\n- keep the check lightweight",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/163",
       "createdAt": "2026-03-09T15:44:59Z",
-      "updatedAt": "2026-03-09T15:46:24Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-03-12T17:14:29Z",
+      "commentsCount": 5,
       "reactionCount": 0,
       "labels": [
         {
@@ -111,10 +127,16 @@
       "repo": {
         "name": "btcpayserver-plugin-builder",
         "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
-      "assignees": [],
+      "assignees": [
+        {
+          "login": "Abdullah-Albayati",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/93524185?v=4",
+          "url": "https://github.com/Abdullah-Albayati"
+        }
+      ],
       "author": {
         "login": "thgO-O",
         "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
@@ -123,7 +145,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "C#"
+      ]
     },
     {
       "id": 4018455059,
@@ -144,7 +168,7 @@
       "repo": {
         "name": "btcpayserver-plugin-builder",
         "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
       "assignees": [],
@@ -156,7 +180,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "C#"
+      ]
     },
     {
       "id": 3974150655,
@@ -177,7 +203,7 @@
       "repo": {
         "name": "btcpayserver-plugin-builder",
         "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
       "assignees": [],
@@ -189,7 +215,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "C#"
+      ]
     },
     {
       "id": 3820273373,
@@ -198,7 +226,7 @@
       "body": "Now that we are integrating the label system into Payment Requests as well (https://github.com/btcpayserver/btcpayserver/pull/7050), we should improve label UX so it scales to 10, 100, or 1,000 labels.\n\nThe current wallet UI that dumps all labels into the filter dropdown will not scale:\n\nhttps://github.com/user-attachments/assets/a9de89de-b877-472e-a776-921a46da87c9\n\nFrom the video, it is clear the labels filter dropdown should never exceed page height. A good approach would be to reuse the dropdown we already use in transaction rows for applying labels:\n\n<img width=\"453\" height=\"275\" alt=\"Ima",
       "url": "https://github.com/btcpayserver/btcpayserver/issues/7109",
       "createdAt": "2026-01-16T04:21:31Z",
-      "updatedAt": "2026-02-24T20:03:07Z",
+      "updatedAt": "2026-03-11T16:21:09Z",
       "commentsCount": 8,
       "reactionCount": 2,
       "labels": [
@@ -214,10 +242,16 @@
       "repo": {
         "name": "btcpayserver",
         "fullName": "btcpayserver/btcpayserver",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver"
       },
-      "assignees": [],
+      "assignees": [
+        {
+          "login": "rockstardev",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/5191402?v=4",
+          "url": "https://github.com/rockstardev"
+        }
+      ],
       "author": {
         "login": "rockstardev",
         "avatarUrl": "https://avatars.githubusercontent.com/u/5191402?v=4",
@@ -226,7 +260,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "C#"
+      ]
     },
     {
       "id": 3799539831,
@@ -251,7 +287,7 @@
       "repo": {
         "name": "btcpayserver",
         "fullName": "btcpayserver/btcpayserver",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver"
       },
       "assignees": [],
@@ -263,7 +299,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "C#"
+      ]
     },
     {
       "id": 3799531574,
@@ -288,7 +326,7 @@
       "repo": {
         "name": "btcpayserver",
         "fullName": "btcpayserver/btcpayserver",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver"
       },
       "assignees": [],
@@ -300,7 +338,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "C#"
+      ]
     },
     {
       "id": 3579096842,
@@ -321,7 +361,7 @@
       "repo": {
         "name": "btcpayserver-doc",
         "fullName": "btcpayserver/btcpayserver-doc",
-        "language": null,
+        "language": "Shell",
         "url": "https://github.com/btcpayserver/btcpayserver-doc"
       },
       "assignees": [],
@@ -341,11 +381,11 @@
       "id": 3062219572,
       "number": 6727,
       "title": "Greenfield API - Improvements tracker",
-      "body": "This is a tracker issue aggregating several Greenfield API improvements, all validated as useful by @NicolasDorier. These changes would further extend the flexibility and usability of the API:\n\n- [x] Calling all invoices at once [#2394](https://github.com/btcpayserver/btcpayserver/discussions/2394)\n- [x] Get an amount paid, not the invoice amount [#2525](https://github.com/btcpayserver/btcpayserver/discussions/2525)\n- [ ] Show time last used for API key [#3169](https://github.com/btcpayserver/btcpayserver/discussions/3196)\n- [x] List all users [#3166](https://github.com/btcpayserver/btcpayserv",
+      "body": "This is a tracker issue aggregating several Greenfield API improvements, all validated as useful by @NicolasDorier. These changes would further extend the flexibility and usability of the API:\n\n- [x] Calling all invoices at once [#2394](https://github.com/btcpayserver/btcpayserver/discussions/2394)\n- [x] Get an amount paid, not the invoice amount [#2525](https://github.com/btcpayserver/btcpayserver/discussions/2525)\n- [x] Show time last used for API key [#3169](https://github.com/btcpayserver/btcpayserver/discussions/3196)\n- [x] List all users [#3166](https://github.com/btcpayserver/btcpayserv",
       "url": "https://github.com/btcpayserver/btcpayserver/issues/6727",
       "createdAt": "2025-05-14T08:06:31Z",
-      "updatedAt": "2026-03-05T15:25:48Z",
-      "commentsCount": 7,
+      "updatedAt": "2026-03-12T05:08:02Z",
+      "commentsCount": 8,
       "reactionCount": 0,
       "labels": [
         {
@@ -364,7 +404,7 @@
       "repo": {
         "name": "btcpayserver",
         "fullName": "btcpayserver/btcpayserver",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver"
       },
       "assignees": [
@@ -382,7 +422,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "C#"
+      ]
     },
     {
       "id": 3051345641,
@@ -407,7 +449,7 @@
       "repo": {
         "name": "app",
         "fullName": "btcpayserver/app",
-        "language": null,
+        "language": "HTML",
         "url": "https://github.com/btcpayserver/app"
       },
       "assignees": [],
@@ -419,7 +461,9 @@
       "skills": [
         "developer"
       ],
-      "tags": []
+      "tags": [
+        "HTML"
+      ]
     },
     {
       "id": 2950017622,
@@ -448,7 +492,7 @@
       "repo": {
         "name": "app",
         "fullName": "btcpayserver/app",
-        "language": null,
+        "language": "HTML",
         "url": "https://github.com/btcpayserver/app"
       },
       "assignees": [
@@ -501,7 +545,7 @@
       "repo": {
         "name": "btcpayserver",
         "fullName": "btcpayserver/btcpayserver",
-        "language": null,
+        "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver"
       },
       "assignees": [],
