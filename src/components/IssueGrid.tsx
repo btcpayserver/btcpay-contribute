@@ -60,7 +60,7 @@ export default function IssueGrid({ issues, loading, onIssueClick }: IssueGridPr
         </div>
       )}
 
-      <p className="text-center text-xs text-muted-foreground mt-4">
+      <p className="text-center text-xs text-muted-foreground mt-4 mb-4">
         Showing {visible.length} of {issues.length} issues
       </p>
     </div>
