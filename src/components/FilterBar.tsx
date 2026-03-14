@@ -55,7 +55,6 @@ export default function FilterBar({ filters, setSkill, setQuery, clearAll }: Fil
           })}
         </div>
 
-        {/* Clear + Search à droite */}
         <div className="flex items-center gap-2 sm:ml-auto w-full sm:w-auto min-w-0">
           {active && (
             <button
@@ -67,9 +66,7 @@ export default function FilterBar({ filters, setSkill, setQuery, clearAll }: Fil
                 'bg-muted/70 text-muted-foreground hover:text-foreground hover:bg-muted',
                 'transition-all duration-150 cursor-pointer',
                 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring',
-                // Mobile : icône seule, cercle compact
                 'h-8 w-8',
-                // Desktop : icône + texte, pill avec padding
                 'sm:w-auto sm:px-3 sm:gap-1.5 sm:text-sm sm:font-medium',
               )}
             >
