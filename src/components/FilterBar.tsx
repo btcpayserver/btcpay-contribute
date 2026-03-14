@@ -13,13 +13,11 @@ interface FilterBarProps {
 }
 
 export default function FilterBar({ filters, setSkill, setQuery, clearAll }: FilterBarProps) {
-  const searchRef   = useRef<HTMLInputElement>(null)
-  const debounceRef = useRef<number | undefined>(undefined)
+  const searchRef = useRef<HTMLInputElement>(null)
 
   const handleSearch = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
-      clearTimeout(debounceRef.current)
-      debounceRef.current = window.setTimeout(() => setQuery(e.target.value), 200)
+      setQuery(e.target.value)
     },
     [setQuery],
   )
@@ -62,7 +60,7 @@ export default function FilterBar({ filters, setSkill, setQuery, clearAll }: Fil
             <input
               ref={searchRef}
               type="search"
-              defaultValue={filters.query}
+              value={filters.query}
               onChange={handleSearch}
               placeholder="Search issues…"
               aria-label="Search issues"

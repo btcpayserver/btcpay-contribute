@@ -101,6 +101,11 @@
   ::selection {
     background-color: hsl(var(--primary) / 0.25);
   }
+
+  input[type="search"]::-webkit-search-cancel-button {
+    cursor: pointer;
+    filter: invert(30%);  
+  }
 }
 
 /* ─── Utilities ───────────────────────────────────────────────────────────── */

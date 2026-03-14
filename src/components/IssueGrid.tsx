@@ -34,7 +34,7 @@ export default function IssueGrid({ issues, loading, onIssueClick, onIssueHover 
 
   if (issues.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center py-20 text-center">
+      <div id="issues" className="flex flex-col items-center justify-center py-20 text-center">
         <p className="text-4xl mb-3">🔍</p>
         <h3 className="font-display font-semibold text-lg">No issues found</h3>
         <p className="text-muted-foreground text-sm mt-1">
@@ -45,7 +45,7 @@ export default function IssueGrid({ issues, loading, onIssueClick, onIssueHover 
   }
 
   return (
-    <div className="mt-4 mb-4">
+    <div id="issues" className="mt-4 mb-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {visible.map((issue, i) => (
           <div key={issue.id} className={`card-enter card-enter-${Math.min(i + 1, 6)}`} onMouseEnter={onIssueHover}>

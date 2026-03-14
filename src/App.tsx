@@ -46,21 +46,24 @@ export default function App() {
           </p>
         </div>
 
-        <div className="sticky top-14 z-40 py-3 -mx-4 sm:-mx-6 px-4 sm:px-6 bg-background/85 backdrop-blur-xl">
-          <FilterBar
-            filters={filters}
-            setSkill={setSkill}
-            setQuery={setQuery}
-            clearAll={clearAll}
+        <div>
+          <div className="sticky top-14 z-50 py-3 -mx-4 sm:-mx-6 px-4 sm:px-6 bg-background/85 backdrop-blur-xl">
+            <FilterBar
+              filters={filters}
+              setSkill={setSkill}
+              setQuery={setQuery}
+              clearAll={clearAll}
+            />
+          </div>
+
+          <IssueGrid
+            issues={filtered}
+            loading={status === 'loading'}
+            onIssueClick={handleIssueClick}
+            onIssueHover={preloadIssueModal}
           />
         </div>
-
-        <IssueGrid
-          issues={filtered}
-          loading={status === 'loading'}
-          onIssueClick={handleIssueClick}
-          onIssueHover={preloadIssueModal}
-        />
+        
 
         <ResourcesSection />
       </main>
