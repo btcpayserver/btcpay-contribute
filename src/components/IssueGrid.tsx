@@ -45,7 +45,7 @@ export default function IssueGrid({ issues, loading, onIssueClick, onIssueHover 
   }
 
   return (
-    <div>
+    <div className="mt-4 mb-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {visible.map((issue, i) => (
           <div key={issue.id} className={`card-enter card-enter-${Math.min(i + 1, 6)}`} onMouseEnter={onIssueHover}>
@@ -62,7 +62,7 @@ export default function IssueGrid({ issues, loading, onIssueClick, onIssueHover 
         </div>
       )}
 
-      <p className="text-center text-xs text-muted-foreground mt-4 mb-4">
+      <p className="text-center text-xs text-muted-foreground mt-4">
         Showing {visible.length} of {issues.length} issues
       </p>
     </div>
