@@ -87,6 +87,7 @@ export default function FilterBar({ filters, setSkill, setQuery, clearAll }: Fil
                 'border border-transparent focus:border-border focus:bg-card',
                 'focus:outline-none transition-all duration-200',
                 'w-full sm:w-40 sm:focus:w-60',
+                'text-base sm:text-sm',
               )}
             />
           </div>
