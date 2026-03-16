@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T18:29:21.326Z",
+  "lastUpdated": "2026-03-16T07:08:22.900Z",
   "totalIssues": 12,
   "repoCount": 5,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7446
+      "stars": 7449
     },
     {
       "id": 101657836,
@@ -65,7 +65,7 @@
       "url": "https://github.com/btcpayserver/app",
       "language": "HTML",
       "topics": [],
-      "stars": 21
+      "stars": 22
     }
   ],
   "issues": [
