@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T01:26:54.887Z",
+  "lastUpdated": "2026-03-17T06:56:57.415Z",
   "totalIssues": 15,
   "repoCount": 6,
   "repos": [
@@ -121,8 +121,8 @@
       "body": "### What is your BTCPay version?\n\nBTCPay Server v2.3.6 (at least also in 2.3.5)\n\n### How did you deploy BTCPay Server?\n\ndocker\n\n### What happened?\n\nOn the store dashboard wallet balance we have a toggle between 1W 1M and 1Y. When you switch to 1W or 1Y it always shows 21. Jan, 21. Jan on the timeline. Also when you click back to 1W it does not update the screen to show March dates again but stays broken. Only reload fixes screen display.\n\nThis also happens on stores with more transactions than what I have in the screenshots below.\n\nImportant: the graphic updates just fine, only the x-axis date",
       "url": "https://github.com/btcpayserver/btcpayserver/issues/7246",
       "createdAt": "2026-03-16T09:34:18Z",
-      "updatedAt": "2026-03-16T10:17:27Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-03-17T04:21:13Z",
+      "commentsCount": 2,
       "reactionCount": 2,
       "labels": [
         {
