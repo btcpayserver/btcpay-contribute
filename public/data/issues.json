@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T06:56:57.415Z",
+  "lastUpdated": "2026-03-17T10:19:32.638Z",
   "totalIssues": 15,
   "repoCount": 6,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7450
+      "stars": 7449
     },
     {
       "id": 101657836,
@@ -591,6 +591,36 @@
     }
   ],
   "testerItems": [
+    {
+      "id": 4087292393,
+      "number": 7247,
+      "type": "pr",
+      "title": "fix: store dashboard wallet balance chart and numbers widget",
+      "body": "closes #7246 \r\n\r\n\r\nhttps://github.com/user-attachments/assets/fdda35d0-e20e-4aed-b575-535868b2547b\r\n\r\n\r\n",
+      "url": "https://github.com/btcpayserver/btcpayserver/pull/7247",
+      "createdAt": "2026-03-17T09:31:07Z",
+      "updatedAt": "2026-03-17T10:16:12Z",
+      "commentsCount": 1,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "User Testing",
+          "color": "F8ADDA"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver",
+        "fullName": "btcpayserver/btcpayserver",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Abhijay007",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64387054?v=4",
+        "url": "https://github.com/Abhijay007"
+      }
+    },
     {
       "id": 4051110731,
       "number": 7226,
