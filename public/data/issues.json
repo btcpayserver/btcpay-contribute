@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T10:19:32.638Z",
+  "lastUpdated": "2026-03-17T12:56:16.588Z",
   "totalIssues": 15,
   "repoCount": 6,
   "repos": [
@@ -685,6 +685,36 @@
         "login": "pavlenex",
         "avatarUrl": "https://avatars.githubusercontent.com/u/36959754?v=4",
         "url": "https://github.com/pavlenex"
+      }
+    },
+    {
+      "id": 3845970951,
+      "number": 7133,
+      "type": "pr",
+      "title": "feat(wallets): add transaction search and date filters.",
+      "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
+      "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
+      "createdAt": "2026-01-23T05:57:10Z",
+      "updatedAt": "2026-03-17T10:33:30Z",
+      "commentsCount": 4,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "User Testing",
+          "color": "F8ADDA"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver",
+        "fullName": "btcpayserver/btcpayserver",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sup3rlativ3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1555043?v=4",
+        "url": "https://github.com/Sup3rlativ3"
       }
     },
     {
