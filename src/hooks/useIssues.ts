@@ -6,17 +6,26 @@ type Status = 'idle' | 'loading' | 'success' | 'error'
 
 export function useIssues(filters: FilterState) {
   const [data, setData] = useState<IssuesData | null>(null)
-  const [status, setStatus] = useState<Status>('idle')
+  const [status, setStatus] = useState<Status>('loading')
 
   useEffect(() => {
-    setStatus('loading')
-    fetch('/data/issues.json')
+    const controller = new AbortController()
+
+    fetch('/data/issues.json', { signal: controller.signal })
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json() as Promise<IssuesData>
       })
-      .then((d) => { setData(d); setStatus('success') })
-      .catch((err) => { console.error('[useIssues] failed to load issues.json:', err); setStatus('error') })
+      .then((d) => {
+        setData(d)
+        setStatus('success')
+      })
+      .catch((err: unknown) => {
+        if (controller.signal.aborted) return
+        console.error('[useIssues] failed to load issues.json:', err)
+        setStatus('error')
+      })
+    return () => controller.abort()
   }, [])
 
   const filtered = useMemo(

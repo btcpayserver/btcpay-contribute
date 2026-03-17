@@ -18,7 +18,9 @@
     <meta name="twitter:description" content="Pick your role and start contributing to BTCPay Server - developer, tester, designer, or evangelist." />
 
     <!-- CSP - GitHub Pages ignores _headers, so enforce via meta tag -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://avatars.githubusercontent.com https://img.youtube.com; connect-src 'self'; frame-src https://www.youtube.com" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://avatars.githubusercontent.com https://img.youtube.com; connect-src 'self'; frame-src https://www.youtube.com" />
+
+    <script src="/theme-init.js"></script>
 
     <!-- Favicon -->
     <meta name="theme-color" content="#51b13e" />
@@ -37,15 +39,6 @@
     <!-- Preconnect for YouTube thumbnails -->
     <link rel="preconnect" href="https://img.youtube.com" />
 
-    <!-- Theme flash prevention — runs before React hydrates -->
-    <script>
-      (function() {
-        var t = localStorage.getItem('theme');
-        if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-          document.documentElement.classList.add('dark');
-        }
-      })();
-    </script>
   </head>
   <body>
     <div id="root"></div>

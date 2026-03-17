@@ -52,12 +52,12 @@ export default function App() {
   }
 
   const { heading, sub } = ROLE_SECTION_TITLE[selectedRole]
-
-  function getIssues() {
-    if (selectedRole === 'tester') return testerFiltered
-    if (selectedRole === 'writer') return writerFiltered
-    return filtered
-  }
+  const issues =
+    selectedRole === 'tester'
+      ? testerFiltered
+      : selectedRole === 'writer'
+        ? writerFiltered
+        : filtered
 
   return (
     <>
@@ -89,7 +89,8 @@ export default function App() {
           </div>
 
           <IssueGrid
-            issues={getIssues()}
+            key={`${selectedRole}:${filters.query}`}
+            issues={issues}
             loading={status === 'loading'}
             onIssueClick={handleIssueClick}
             onIssueHover={preloadIssueModal}

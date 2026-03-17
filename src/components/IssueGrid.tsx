@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import type React from 'react'
 import { Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -16,8 +16,6 @@ interface IssueGridProps {
 
 export default function IssueGrid({ issues, loading, onIssueClick, onIssueHover }: IssueGridProps) {
   const [page, setPage] = useState(1)
-
-  useEffect(() => { setPage(1) }, [issues])
 
   const visible = issues.slice(0, page * PAGE_SIZE)
   const hasMore = visible.length < issues.length

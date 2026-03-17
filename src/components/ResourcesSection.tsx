@@ -379,7 +379,7 @@ function StepRow({ step, index, role }: { step: StepDef; index: number; role: Ro
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          <YoutubeThumbnail video={role === 'writer' ? WRITER_VIDEO : DEV_VIDEO} />
+          <YoutubeThumbnail video={DEV_VIDEO} />
           <DevToolRows />
         </div>
       </div>
