@@ -46,21 +46,26 @@ export default function IssueModal({ issue, onClose, slideFrom }: IssueModalProp
           )}
 
           <div className="flex items-center gap-3 text-xs text-muted-foreground mt-1">
-            <img
-              src={issue.author.avatarUrl}
-              alt={issue.author.login}
-              className="w-5 h-5 rounded-full"
-              referrerPolicy="no-referrer"
-              loading="lazy"
-            />
-            <a
-              href={issue.author.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium hover:text-primary transition-colors"
-            >
-              {issue.author.login}
-            </a>
+            {issue.author.avatarUrl && (
+              <img
+                src={issue.author.avatarUrl}
+                alt={issue.author.login}
+                className="w-5 h-5 rounded-full"
+                referrerPolicy="no-referrer"
+                loading="lazy"
+              />
+            )}
+            {issue.author.url ? (
+              <a
+                href={issue.author.url}
+                target="_blank"
+                className="font-medium hover:text-primary transition-colors"
+              >
+                {issue.author.login}
+              </a>
+            ) : (
+              <span className="font-medium">{issue.author.login}</span>
+            )}
             <span className="flex items-center gap-1">
               <Clock size={11} aria-hidden="true" /> {timeAgo(issue.createdAt)}
             </span>
@@ -76,6 +81,12 @@ export default function IssueModal({ issue, onClose, slideFrom }: IssueModalProp
                   skipHtml
                   allowedElements={['p', 'h1', 'h2', 'h3', 'ul', 'ol', 'li', 'code', 'pre', 'blockquote', 'a', 'strong', 'em', 'br']}
                   unwrapDisallowed
+                  components={{
+                    a: ({ href, children }) => {
+                      const safe = href && /^https?:\/\//i.test(href) ? href : '#'
+                      return <a href={safe} target="_blank" rel="noopener noreferrer">{children}</a>
+                    },
+                  }}
                 >
                   {issue.body || '_No description provided._'}
                 </ReactMarkdown>

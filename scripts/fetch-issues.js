@@ -143,7 +143,7 @@ async function main() {
         updatedAt:     raw.updated_at ?? raw.created_at,
         commentsCount: raw.comments,
         reactionCount: raw.reactions?.total_count ?? 0,
-        labels:        raw.labels
+        labels:        (raw.labels ?? [])
           .filter((l) => typeof l === 'object')
           .map((l) => ({ name: l.name ?? '', color: l.color ?? '888888' })),
         repo: {
