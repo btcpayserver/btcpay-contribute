@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-03-20T06:45:19.232Z",
-  "totalIssues": 16,
-  "repoCount": 5,
+  "lastUpdated": "2026-03-20T18:38:13.488Z",
+  "totalIssues": 15,
+  "repoCount": 6,
   "repos": [
     {
       "id": 100711978,
@@ -33,7 +33,7 @@
         "btcpayserver",
         "documentation"
       ],
-      "stars": 415
+      "stars": 414
     },
     {
       "id": 249388671,
@@ -66,9 +66,54 @@
       "language": "HTML",
       "topics": [],
       "stars": 23
+    },
+    {
+      "id": 1179862494,
+      "name": "btcpay-contribute",
+      "fullName": "btcpayserver/btcpay-contribute",
+      "description": "Website that guides new contributors to contribute to Bitcoin and BTCPay Server",
+      "url": "https://github.com/btcpayserver/btcpay-contribute",
+      "language": "TypeScript",
+      "topics": [
+        "bitcoin",
+        "contribute",
+        "contributions-welcome",
+        "open-source"
+      ],
+      "stars": 2
     }
   ],
   "issues": [
+    {
+      "id": 4109099281,
+      "number": 8,
+      "type": "issue",
+      "title": "\"Contribute\" and \"How it Works\" nav links disappear on screens narrower than 640px",
+      "body": "According to the [user testing report ](https://github.com/btcpayserver/btcpay-contribute/issues/4#issuecomment-4099311361)by @JohnOluB \n\n\nOn viewports below 640px, the two main nav links \"Contribute\" and \"How it Works\" are hidden with no hamburger menu to access them. Only the logo, a role dropdown, a GitHub icon, and a light/dark icon remain visible.\nTested at: 350px, 400px, 480px, 520px, 560px — all affected.\nBoth links reappear at 640px and above.\n\nSolution is to add hamburger menu for mobile devices and put all relevant menu items in there.\n\nGood first issue, if anyone is interested in ta",
+      "url": "https://github.com/btcpayserver/btcpay-contribute/issues/8",
+      "createdAt": "2026-03-20T17:22:34Z",
+      "updatedAt": "2026-03-20T17:22:34Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repo": {
+        "name": "btcpay-contribute",
+        "fullName": "btcpayserver/btcpay-contribute",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/btcpay-contribute"
+      },
+      "assignees": [],
+      "author": {
+        "login": "pavlenex",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36959754?v=4",
+        "url": "https://github.com/pavlenex"
+      }
+    },
     {
       "id": 4096797025,
       "number": 549,
@@ -228,40 +273,6 @@
       }
     },
     {
-      "id": 4077245413,
-      "number": 545,
-      "type": "issue",
-      "title": "New entry submission - Way of Bitcoin",
-      "body": "New submission:\n\nName: Way of Bitcoin\nUrl: https://wayofbitcoin.com\nTwitter: @alanbwt\nType: merchants\nSubType: books\nDescription: A philosophical guide to Bitcoin as a discipline and a way of life. Published by Hyperborean Press. Pay on-chain or with lightning via BTCPay Server Shopify V2.",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/545",
-      "createdAt": "2026-03-15T01:04:13Z",
-      "updatedAt": "2026-03-16T10:02:32Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "alanbwt",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/167029568?v=4",
-        "url": "https://github.com/alanbwt"
-      }
-    },
-    {
       "id": 4067414699,
       "number": 166,
       "type": "issue",
@@ -292,40 +303,6 @@
       }
     },
     {
-      "id": 4054026700,
-      "number": 542,
-      "type": "issue",
-      "title": "New entry submission - MAGIC Grants",
-      "body": "New submission:\n\nName: MAGIC Grants\nUrl: https://donate.magicgrants.org\nTwitter: @MagicGrants\nType: non-profits\nDescription: MAGIC Grants provides scholarships for students interested in cryptocurrencies and privacy, supports public cryptocurrency infrastructure, and promotes privacy.",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/542",
-      "createdAt": "2026-03-10T20:20:35Z",
-      "updatedAt": "2026-03-11T08:33:49Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "SamsungGalaxyPlayer",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12520755?v=4",
-        "url": "https://github.com/SamsungGalaxyPlayer"
-      }
-    },
-    {
       "id": 4046354134,
       "number": 163,
       "type": "issue",
@@ -333,8 +310,8 @@
       "body": "Plugin Builder currently has no dedicated health check endpoint.\n\nSince startup depends on Postgres, Docker, and Azure Storage, it would be useful to expose a simple probe endpoint for deployments and monitoring.\n\nSuggested scope:\n- add `/health`\n- return `200 OK` when the app is ready to serve requests\n- return `503` when startup is incomplete or a critical dependency is unavailable\n- keep the check lightweight",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/163",
       "createdAt": "2026-03-09T15:44:59Z",
-      "updatedAt": "2026-03-19T17:14:45Z",
-      "commentsCount": 10,
+      "updatedAt": "2026-03-20T17:03:25Z",
+      "commentsCount": 13,
       "reactionCount": 0,
       "labels": [
         {
@@ -703,8 +680,8 @@
       "body": "It would be great if we can have testers test https://contribute.btcpayserver.org for any bugs and UX issues.\n\nIf you'd like to do that please comment below this issue! Testing on different screen sizes and devices would be a huge plus.",
       "url": "https://github.com/btcpayserver/btcpay-contribute/issues/4",
       "createdAt": "2026-03-16T18:13:10Z",
-      "updatedAt": "2026-03-19T15:41:27Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-03-20T17:26:58Z",
+      "commentsCount": 2,
       "reactionCount": 0,
       "labels": [
         {
