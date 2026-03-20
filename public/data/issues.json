@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T18:46:51.688Z",
+  "lastUpdated": "2026-03-20T01:25:05.721Z",
   "totalIssues": 17,
   "repoCount": 5,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7453
+      "stars": 7452
     },
     {
       "id": 101657836,
@@ -145,8 +145,8 @@
       "body": "Currently, the user documentation lists many plugins in the sidebar, but there is no dedicated Plugins page that serves as a proper introduction for end users.\n\nWe do have a developer-focused page at https://docs.btcpayserver.org/Development/Plugins/, but regular BTCPay Server users are not clearly introduced to plugins from a user perspective.\n\nThe goal of this issue is to create a clear first introduction point for plugins in the user documentation, so users better understand what plugins are, how they become available, and how they can expand BTCPay Server functionality.\n\nA dedicated user-f",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1564",
       "createdAt": "2026-03-18T11:52:57Z",
-      "updatedAt": "2026-03-18T11:53:57Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-03-19T20:18:25Z",
+      "commentsCount": 2,
       "reactionCount": 0,
       "labels": [
         {
@@ -175,8 +175,8 @@
       "body": "The https://docs.btcpayserver.org/WhatsNext/ page needs to be updated to reflect the removal of the distinction between Apps and Plugins.\n\nAs explained in issue #1559, BTCPay Server no longer separates Apps and Plugins. What used to be called apps are now core system plugins. From the user’s perspective, features such as Point of Sale and Crowdfunding are now presented as plugins in the sidebar.\nT\nhe goal of this task is straightforward: remove references to apps and make sure the page consistently refers to Crowdfunding, Point of Sale, and Pay Button as plugins, within the plugins section.\n\nT",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1563",
       "createdAt": "2026-03-18T11:40:02Z",
-      "updatedAt": "2026-03-18T11:40:02Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-03-19T20:17:00Z",
+      "commentsCount": 2,
       "reactionCount": 0,
       "labels": [
         {
@@ -835,8 +835,8 @@
       "body": "Currently, the user documentation lists many plugins in the sidebar, but there is no dedicated Plugins page that serves as a proper introduction for end users.\n\nWe do have a developer-focused page at https://docs.btcpayserver.org/Development/Plugins/, but regular BTCPay Server users are not clearly introduced to plugins from a user perspective.\n\nThe goal of this issue is to create a clear first introduction point for plugins in the user documentation, so users better understand what plugins are, how they become available, and how they can expand BTCPay Server functionality.\n\nA dedicated user-f",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1564",
       "createdAt": "2026-03-18T11:52:57Z",
-      "updatedAt": "2026-03-18T11:53:57Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-03-19T20:18:25Z",
+      "commentsCount": 2,
       "reactionCount": 0,
       "labels": [
         {
@@ -865,8 +865,8 @@
       "body": "The https://docs.btcpayserver.org/WhatsNext/ page needs to be updated to reflect the removal of the distinction between Apps and Plugins.\n\nAs explained in issue #1559, BTCPay Server no longer separates Apps and Plugins. What used to be called apps are now core system plugins. From the user’s perspective, features such as Point of Sale and Crowdfunding are now presented as plugins in the sidebar.\nT\nhe goal of this task is straightforward: remove references to apps and make sure the page consistently refers to Crowdfunding, Point of Sale, and Pay Button as plugins, within the plugins section.\n\nT",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1563",
       "createdAt": "2026-03-18T11:40:02Z",
-      "updatedAt": "2026-03-18T11:40:02Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-03-19T20:17:00Z",
+      "commentsCount": 2,
       "reactionCount": 0,
       "labels": [
         {
