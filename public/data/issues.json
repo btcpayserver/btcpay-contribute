@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-25T18:47:23.907Z",
-  "totalIssues": 15,
+  "lastUpdated": "2026-03-26T01:47:11.042Z",
+  "totalIssues": 14,
   "repoCount": 6,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7460
+      "stars": 7461
     },
     {
       "id": 101657836,
@@ -89,8 +89,8 @@
       "body": "## Description \n\nSome language pack entries appear to contain LLM meta responses rather than actual translations. For example, the key \"follow these instructions\" is translated as \"I'm ready to translate English text for BTCPay Server. Please provide the English text you'd like me to translate.\"\n\nBecause BTCPay imports these dictionaries as-is, those responses show up directly in the UI.\n\nThis suggests the translation pipeline/review process is allowing prompt-style or assistant-style responses into the published JSON files.\n\nI think this needs two things:\n\n- cleanup of the affected entries in",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/34",
       "createdAt": "2026-03-25T17:35:16Z",
-      "updatedAt": "2026-03-25T18:16:54Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-03-25T19:13:55Z",
+      "commentsCount": 4,
       "reactionCount": 1,
       "labels": [
         {
@@ -173,40 +173,6 @@
         "login": "thgO-O",
         "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
         "url": "https://github.com/thgO-O"
-      }
-    },
-    {
-      "id": 4096797025,
-      "number": 549,
-      "type": "issue",
-      "title": "New entry submission - Paco de la India",
-      "body": "New submission:\n\nName: Paco de la India\nUrl: https://pacodelaindia.com/\nType: merchants\nSubType: books\nDescription: A 2-Year Journey Across 42 Countries over 800 days using bitcoin. The book is a tell-all covering paco journey ",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/549",
-      "createdAt": "2026-03-18T17:50:32Z",
-      "updatedAt": "2026-03-18T19:36:20Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "Abhijay007",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/64387054?v=4",
-        "url": "https://github.com/Abhijay007"
       }
     },
     {
@@ -341,8 +307,8 @@
       "body": "## Description \n\nAdd a cleanup job similar to the existing stale plugin cleanup, but for users who registered and never confirmed their email.\n\nScope:\n- delete only users with `EmailConfirmed = false`\n- only delete users older than a defined threshold\n- never delete users with roles, plugin ownership, reviews, or other linked data\n- run on a schedule, like the current plugin cleanup\n- add tests for delete vs keep scenarios\n\nNote:\nAspNetUsers currently does not seem to store account creation date, so this likely needs a CreatedAt field first to define what is stale safely.",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/166",
       "createdAt": "2026-03-12T21:36:42Z",
-      "updatedAt": "2026-03-25T17:40:45Z",
-      "commentsCount": 7,
+      "updatedAt": "2026-03-25T19:15:54Z",
+      "commentsCount": 8,
       "reactionCount": 1,
       "labels": [
         {
@@ -471,7 +437,7 @@
       "body": "### Description\n\nThe BTCPay Server Translator currently supports several key languages, but we’re looking to **expand support for more widely used global languages** to make BTCPay Server accessible to even more users.\n\nThis issue tracks adding **new major languages** to the translation tool and updating relevant configuration, documentation, and testing.\n\n---\n\n###  Currently Supported Languages\n\nThe following translations are already available:\n\n- 🇫🇷 French (`french.json`)\n- 🇮🇳 Hindi (`hindi.json`)\n- 🇯🇵 Japanese (`japanese.json`)\n- 🇧🇷 Portuguese (Brazil) (`portuguese (brazil).json`)\n-",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/1",
       "createdAt": "2025-10-12T04:32:49Z",
-      "updatedAt": "2026-03-25T18:16:30Z",
+      "updatedAt": "2026-03-25T19:01:21Z",
       "commentsCount": 0,
       "reactionCount": 0,
       "labels": [
@@ -645,8 +611,8 @@
       "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
       "createdAt": "2026-01-23T05:57:10Z",
-      "updatedAt": "2026-03-25T06:21:29Z",
-      "commentsCount": 10,
+      "updatedAt": "2026-03-26T01:16:05Z",
+      "commentsCount": 12,
       "reactionCount": 0,
       "labels": [
         {
