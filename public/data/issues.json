@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T06:59:47.745Z",
+  "lastUpdated": "2026-03-27T12:47:21.252Z",
   "totalIssues": 12,
   "repoCount": 5,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7462
+      "stars": 7464
     },
     {
       "id": 101657836,
@@ -77,8 +77,8 @@
       "body": "## Description \n\nSome language pack entries appear to contain LLM meta responses rather than actual translations. For example, the key \"follow these instructions\" is translated as \"I'm ready to translate English text for BTCPay Server. Please provide the English text you'd like me to translate.\"\n\nBecause BTCPay imports these dictionaries as-is, those responses show up directly in the UI.\n\nThis suggests the translation pipeline/review process is allowing prompt-style or assistant-style responses into the published JSON files.\n\nI think this needs two things:\n\n- cleanup of the affected entries in",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/34",
       "createdAt": "2026-03-25T17:35:16Z",
-      "updatedAt": "2026-03-26T19:52:34Z",
-      "commentsCount": 5,
+      "updatedAt": "2026-03-27T11:05:16Z",
+      "commentsCount": 7,
       "reactionCount": 1,
       "labels": [
         {
@@ -261,8 +261,8 @@
       "body": "It would be great to have a default 404 error page instead of this one :\n\n<img width=\"2877\" height=\"1464\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9a35e86f-74f4-458b-9a90-a8487c8055ec\" />",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/158",
       "createdAt": "2026-02-22T10:30:20Z",
-      "updatedAt": "2026-02-23T22:34:38Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-03-27T08:56:20Z",
+      "commentsCount": 2,
       "reactionCount": 2,
       "labels": [
         {
@@ -461,36 +461,6 @@
     }
   ],
   "testerItems": [
-    {
-      "id": 4082325681,
-      "number": 33,
-      "type": "pr",
-      "title": "26-03-16_Update Translation_de_DE",
-      "body": "Hi BTCPay Server Team,\r\n\r\nI have been working on a comprehensive review and improvement of the German translation file. Here is a summary of all the changes made:\r\n\r\nFixes & Corrections:\r\n- Fixed 29 AI-generated placeholder texts that were accidentally included as translations (e.g. \"Please provide the English text...\" or \"I am now a professional translator...\")\r\n- Replaced all informal \"du\" forms with the formal \"Sie\" form throughout the entire file\r\n- Added 103 missing translation entries that were not present in the original file\r\n\r\nTerminology Consistency:\r\n- \"Store\" → consistently transla",
-      "url": "https://github.com/btcpayserver/btcpayserver-translator/pull/33",
-      "createdAt": "2026-03-16T12:56:01Z",
-      "updatedAt": "2026-03-25T18:25:20Z",
-      "commentsCount": 4,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "user-testing",
-          "color": "D13DD2"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-translator",
-        "fullName": "btcpayserver/btcpayserver-translator",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-translator"
-      },
-      "assignees": [],
-      "author": {
-        "login": "bsn21m",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/83470431?v=4",
-        "url": "https://github.com/bsn21m"
-      }
-    },
     {
       "id": 3941153156,
       "number": 7183,
