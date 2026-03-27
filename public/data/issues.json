@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-27T12:47:21.252Z",
-  "totalIssues": 12,
+  "lastUpdated": "2026-03-27T18:47:12.904Z",
+  "totalIssues": 13,
   "repoCount": 5,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7464
+      "stars": 7465
     },
     {
       "id": 101657836,
@@ -43,7 +43,7 @@
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
       "language": "C#",
       "topics": [],
-      "stars": 23
+      "stars": 24
     },
     {
       "id": 657155945,
@@ -69,6 +69,46 @@
     }
   ],
   "issues": [
+    {
+      "id": 4152869573,
+      "number": 185,
+      "type": "issue",
+      "title": "[Bug]  Admin primary owner list changes with pagination",
+      "body": "## Description \n\nOn /admin/plugins, the Email Primary Owners button generates a different email list depending on the current table page. It should include primary owners from all plugins matching the current filters, not just the items shown on the current page.",
+      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/185",
+      "createdAt": "2026-03-27T13:52:15Z",
+      "updatedAt": "2026-03-27T16:06:25Z",
+      "commentsCount": 1,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-plugin-builder",
+        "fullName": "btcpayserver/btcpayserver-plugin-builder",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
+      },
+      "assignees": [
+        {
+          "login": "sidharth-vijayan",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/226437127?v=4",
+          "url": "https://github.com/sidharth-vijayan"
+        }
+      ],
+      "author": {
+        "login": "thgO-O",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
+        "url": "https://github.com/thgO-O"
+      }
+    },
     {
       "id": 4137213069,
       "number": 34,
