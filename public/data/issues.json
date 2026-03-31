@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T13:01:09.712Z",
+  "lastUpdated": "2026-03-31T18:52:41.597Z",
   "totalIssues": 14,
   "repoCount": 6,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7470
+      "stars": 7473
     },
     {
       "id": 101657836,
@@ -231,8 +231,8 @@
       "body": "Plugin Builder currently has Builds and Owners tabs that do not align well with the Report tab structure in BTCPay Server.\n\nThis issue tracks reviewing those tabs and aligning naming, grouping, and layout where appropriate, to make more consistent across both applications.\n\n<img width=\"1130\" height=\"449\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/827e72d9-9113-4a8a-b6b2-47f4a2f2e4ab\" />\n<img width=\"1133\" height=\"436\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ce3f6b6c-acb5-4429-95ed-fa3dfc6cf1c2\" />\n<img width=\"1111\" height=\"186\" alt=\"Image\" src=\"https://githu",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/178",
       "createdAt": "2026-03-24T14:34:15Z",
-      "updatedAt": "2026-03-28T19:47:58Z",
-      "commentsCount": 4,
+      "updatedAt": "2026-03-31T14:02:13Z",
+      "commentsCount": 5,
       "reactionCount": 2,
       "labels": [
         {
@@ -246,7 +246,13 @@
         "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
-      "assignees": [],
+      "assignees": [
+        {
+          "login": "SusanGithaigaN",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/117893498?v=4",
+          "url": "https://github.com/SusanGithaigaN"
+        }
+      ],
       "author": {
         "login": "thgO-O",
         "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
@@ -261,8 +267,8 @@
       "body": "Currently, the user documentation lists many plugins in the sidebar, but there is no dedicated Plugins page that serves as a proper introduction for end users.\n\nWe do have a developer-focused page at https://docs.btcpayserver.org/Development/Plugins/, but regular BTCPay Server users are not clearly introduced to plugins from a user perspective.\n\nThe goal of this issue is to create a clear first introduction point for plugins in the user documentation, so users better understand what plugins are, how they become available, and how they can expand BTCPay Server functionality.\n\nA dedicated user-f",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1564",
       "createdAt": "2026-03-18T11:52:57Z",
-      "updatedAt": "2026-03-25T09:44:11Z",
-      "commentsCount": 4,
+      "updatedAt": "2026-03-31T16:40:03Z",
+      "commentsCount": 5,
       "reactionCount": 0,
       "labels": [
         {
@@ -291,8 +297,8 @@
       "body": "The https://docs.btcpayserver.org/WhatsNext/ page needs to be updated to reflect the removal of the distinction between Apps and Plugins.\n\nAs explained in issue #1559, BTCPay Server no longer separates Apps and Plugins. What used to be called apps are now core system plugins. From the user’s perspective, features such as Point of Sale and Crowdfunding are now presented as plugins in the sidebar.\nT\nhe goal of this task is straightforward: remove references to apps and make sure the page consistently refers to Crowdfunding, Point of Sale, and Pay Button as plugins, within the plugins section.\n\nT",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1563",
       "createdAt": "2026-03-18T11:40:02Z",
-      "updatedAt": "2026-03-19T20:17:00Z",
-      "commentsCount": 2,
+      "updatedAt": "2026-03-31T17:14:17Z",
+      "commentsCount": 4,
       "reactionCount": 0,
       "labels": [
         {
@@ -321,8 +327,8 @@
       "body": "Our documentation at https://docs.btcpayserver.org/Walkthrough is slightly outdated.\n\nThe goal of that page is to walk users through each item in the sidebar in the order it appears, give a short explanation of what it does, and link to a dedicated page where they can learn more about that feature.\nHere’s the proposed approach for refactoring this page:\n\n1. Set up a local BTCPay Server instance if you do not already have access to a server with admin permissions. This is important because some sidebar features are only visible to admins. We should also highlight this in the documentation, sinc",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1559",
       "createdAt": "2026-03-18T11:11:36Z",
-      "updatedAt": "2026-03-25T14:06:47Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-03-31T16:43:55Z",
+      "commentsCount": 2,
       "reactionCount": 0,
       "labels": [
         {
@@ -595,7 +601,7 @@
       "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
       "createdAt": "2026-01-23T05:57:10Z",
-      "updatedAt": "2026-03-31T11:39:05Z",
+      "updatedAt": "2026-03-31T18:51:05Z",
       "commentsCount": 15,
       "reactionCount": 0,
       "labels": [
@@ -691,8 +697,8 @@
       "body": "Currently, the user documentation lists many plugins in the sidebar, but there is no dedicated Plugins page that serves as a proper introduction for end users.\n\nWe do have a developer-focused page at https://docs.btcpayserver.org/Development/Plugins/, but regular BTCPay Server users are not clearly introduced to plugins from a user perspective.\n\nThe goal of this issue is to create a clear first introduction point for plugins in the user documentation, so users better understand what plugins are, how they become available, and how they can expand BTCPay Server functionality.\n\nA dedicated user-f",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1564",
       "createdAt": "2026-03-18T11:52:57Z",
-      "updatedAt": "2026-03-25T09:44:11Z",
-      "commentsCount": 4,
+      "updatedAt": "2026-03-31T16:40:03Z",
+      "commentsCount": 5,
       "reactionCount": 0,
       "labels": [
         {
@@ -721,8 +727,8 @@
       "body": "The https://docs.btcpayserver.org/WhatsNext/ page needs to be updated to reflect the removal of the distinction between Apps and Plugins.\n\nAs explained in issue #1559, BTCPay Server no longer separates Apps and Plugins. What used to be called apps are now core system plugins. From the user’s perspective, features such as Point of Sale and Crowdfunding are now presented as plugins in the sidebar.\nT\nhe goal of this task is straightforward: remove references to apps and make sure the page consistently refers to Crowdfunding, Point of Sale, and Pay Button as plugins, within the plugins section.\n\nT",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1563",
       "createdAt": "2026-03-18T11:40:02Z",
-      "updatedAt": "2026-03-19T20:17:00Z",
-      "commentsCount": 2,
+      "updatedAt": "2026-03-31T17:14:17Z",
+      "commentsCount": 4,
       "reactionCount": 0,
       "labels": [
         {
@@ -751,8 +757,8 @@
       "body": "Our documentation at https://docs.btcpayserver.org/Walkthrough is slightly outdated.\n\nThe goal of that page is to walk users through each item in the sidebar in the order it appears, give a short explanation of what it does, and link to a dedicated page where they can learn more about that feature.\nHere’s the proposed approach for refactoring this page:\n\n1. Set up a local BTCPay Server instance if you do not already have access to a server with admin permissions. This is important because some sidebar features are only visible to admins. We should also highlight this in the documentation, sinc",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1559",
       "createdAt": "2026-03-18T11:11:36Z",
-      "updatedAt": "2026-03-25T14:06:47Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-03-31T16:43:55Z",
+      "commentsCount": 2,
       "reactionCount": 0,
       "labels": [
         {
