@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T13:03:24.801Z",
+  "lastUpdated": "2026-04-01T18:52:02.337Z",
   "totalIssues": 15,
   "repoCount": 6,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7475
+      "stars": 7477
     },
     {
       "id": 101657836,
@@ -81,6 +81,36 @@
     }
   ],
   "issues": [
+    {
+      "id": 4187170894,
+      "number": 195,
+      "type": "issue",
+      "title": "[Feature] Allow selecting plugin version on the plugin details page",
+      "body": "## Description\n\nThe public plugin details page always loads the latest plugin version, and there is currently no public UI to select another version.\n\nAlthough the backend already exposes available versions, downloading a version other than the latest is currently only possible through the versioned public API endpoint.\n\nSuggestion:\n\n- Show a version selector on the public plugin details page when multiple versions exist\n- Default to the latest version\n- Update displayed version-specific details based on the selected version\n- Update the download action to use the selected version\n",
+      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/195",
+      "createdAt": "2026-04-01T14:00:18Z",
+      "updatedAt": "2026-04-01T14:25:50Z",
+      "commentsCount": 2,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-plugin-builder",
+        "fullName": "btcpayserver/btcpayserver-plugin-builder",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
+      },
+      "assignees": [],
+      "author": {
+        "login": "thgO-O",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
+        "url": "https://github.com/thgO-O"
+      }
+    },
     {
       "id": 4183219902,
       "number": 554,
@@ -381,42 +411,6 @@
         "login": "pavlenex",
         "avatarUrl": "https://avatars.githubusercontent.com/u/36959754?v=4",
         "url": "https://github.com/pavlenex"
-      }
-    },
-    {
-      "id": 3974150655,
-      "number": 158,
-      "type": "issue",
-      "title": "Port and unify error page system from BTCPayServer (404 and 500 for start)",
-      "body": "It would be great to have a default 404 error page instead of this one :\n\n<img width=\"2877\" height=\"1464\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/9a35e86f-74f4-458b-9a90-a8487c8055ec\" />",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/158",
-      "createdAt": "2026-02-22T10:30:20Z",
-      "updatedAt": "2026-03-28T19:29:07Z",
-      "commentsCount": 2,
-      "reactionCount": 2,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [
-        {
-          "login": "1amKhush",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/180318257?v=4",
-          "url": "https://github.com/1amKhush"
-        }
-      ],
-      "author": {
-        "login": "teamssUTXO",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/183613235?v=4",
-        "url": "https://github.com/teamssUTXO"
       }
     },
     {
