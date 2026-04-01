@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-01T07:11:54.104Z",
-  "totalIssues": 14,
+  "lastUpdated": "2026-04-01T13:03:24.801Z",
+  "totalIssues": 15,
   "repoCount": 6,
   "repos": [
     {
@@ -81,6 +81,40 @@
     }
   ],
   "issues": [
+    {
+      "id": 4183219902,
+      "number": 554,
+      "type": "issue",
+      "title": "New entry submission - Northwest Vapors",
+      "body": "New submission:\n\nName: Northwest Vapors\nUrl: https://nwvliquids.com\nType: merchants\nSubType: health-household\nDescription: We have been manufacturing quality e-liquids since 2011 at Northwest Vapors",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/554",
+      "createdAt": "2026-04-01T00:35:03Z",
+      "updatedAt": "2026-04-01T10:04:14Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Billkrause",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17137510?v=4",
+        "url": "https://github.com/Billkrause"
+      }
+    },
     {
       "id": 4176132182,
       "number": 553,
@@ -601,8 +635,8 @@
       "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
       "createdAt": "2026-01-23T05:57:10Z",
-      "updatedAt": "2026-04-01T05:53:59Z",
-      "commentsCount": 18,
+      "updatedAt": "2026-04-01T09:04:47Z",
+      "commentsCount": 19,
       "reactionCount": 0,
       "labels": [
         {
@@ -631,8 +665,8 @@
       "body": "Fixes #5612.\n\nClarifies the LND Seed Backup page copy to set correct expectations for recovery steps under some deployments (e.g. BTCPay Server Docker), where LND may be initialized/unlocked automatically and recovery may require an interactive shell (TTY) and temporarily disabling automatic init/unlock.\n\nChanges:\n- Add a short clarification paragraph on the LND Seed Backup page.\n- Add the new string to Translations.Default.cs for localization support.\n\nHow to verify:\n- Server → Services → LND Seed Backup: confirm the new paragraph appears above the link to LND's recovery documentation.\n\nNote:",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7113",
       "createdAt": "2026-01-17T13:58:16Z",
-      "updatedAt": "2026-03-31T08:01:34Z",
-      "commentsCount": 6,
+      "updatedAt": "2026-04-01T12:37:06Z",
+      "commentsCount": 7,
       "reactionCount": 0,
       "labels": [
         {
@@ -651,40 +685,6 @@
         "login": "esixce",
         "avatarUrl": "https://avatars.githubusercontent.com/u/98708432?v=4",
         "url": "https://github.com/esixce"
-      }
-    },
-    {
-      "id": 4084024455,
-      "number": 4,
-      "type": "issue",
-      "title": "User test `contribute.btcpayserver.org` website",
-      "body": "It would be great if we can have testers test https://contribute.btcpayserver.org for any bugs and UX issues.\n\nIf you'd like to do that please comment below this issue! Testing on different screen sizes and devices would be a huge plus.",
-      "url": "https://github.com/btcpayserver/btcpay-contribute/issues/4",
-      "createdAt": "2026-03-16T18:13:10Z",
-      "updatedAt": "2026-03-22T04:43:50Z",
-      "commentsCount": 3,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "User testing",
-          "color": "82e5ea"
-        }
-      ],
-      "repo": {
-        "name": "btcpay-contribute",
-        "fullName": "btcpayserver/btcpay-contribute",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/btcpay-contribute"
-      },
-      "assignees": [],
-      "author": {
-        "login": "pavlenex",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/36959754?v=4",
-        "url": "https://github.com/pavlenex"
       }
     }
   ],
