@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T18:52:02.337Z",
+  "lastUpdated": "2026-04-02T01:45:16.310Z",
   "totalIssues": 15,
   "repoCount": 6,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7477
+      "stars": 7479
     },
     {
       "id": 101657836,
@@ -331,8 +331,8 @@
       "body": "Currently, the user documentation lists many plugins in the sidebar, but there is no dedicated Plugins page that serves as a proper introduction for end users.\n\nWe do have a developer-focused page at https://docs.btcpayserver.org/Development/Plugins/, but regular BTCPay Server users are not clearly introduced to plugins from a user perspective.\n\nThe goal of this issue is to create a clear first introduction point for plugins in the user documentation, so users better understand what plugins are, how they become available, and how they can expand BTCPay Server functionality.\n\nA dedicated user-f",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1564",
       "createdAt": "2026-03-18T11:52:57Z",
-      "updatedAt": "2026-03-31T16:40:03Z",
-      "commentsCount": 5,
+      "updatedAt": "2026-04-01T19:03:49Z",
+      "commentsCount": 6,
       "reactionCount": 0,
       "labels": [
         {
@@ -691,8 +691,8 @@
       "body": "Currently, the user documentation lists many plugins in the sidebar, but there is no dedicated Plugins page that serves as a proper introduction for end users.\n\nWe do have a developer-focused page at https://docs.btcpayserver.org/Development/Plugins/, but regular BTCPay Server users are not clearly introduced to plugins from a user perspective.\n\nThe goal of this issue is to create a clear first introduction point for plugins in the user documentation, so users better understand what plugins are, how they become available, and how they can expand BTCPay Server functionality.\n\nA dedicated user-f",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1564",
       "createdAt": "2026-03-18T11:52:57Z",
-      "updatedAt": "2026-03-31T16:40:03Z",
-      "commentsCount": 5,
+      "updatedAt": "2026-04-01T19:03:49Z",
+      "commentsCount": 6,
       "reactionCount": 0,
       "labels": [
         {
