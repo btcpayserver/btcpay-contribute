@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T07:21:09.371Z",
+  "lastUpdated": "2026-04-06T12:55:10.030Z",
   "totalIssues": 13,
   "repoCount": 5,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7497
+      "stars": 7498
     },
     {
       "id": 101657836,
@@ -371,8 +371,8 @@
       "body": "This page refers to a plugin not available anymore: https://docs.btcpayserver.org/Wabisabi\n\nAre there any plans to bring the plugin back or should this page better be removed?",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1531",
       "createdAt": "2025-11-02T07:59:22Z",
-      "updatedAt": "2026-03-11T09:03:28Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-04-06T09:15:11Z",
+      "commentsCount": 3,
       "reactionCount": 0,
       "labels": [
         {
@@ -727,8 +727,8 @@
       "body": "This page refers to a plugin not available anymore: https://docs.btcpayserver.org/Wabisabi\n\nAre there any plans to bring the plugin back or should this page better be removed?",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1531",
       "createdAt": "2025-11-02T07:59:22Z",
-      "updatedAt": "2026-03-11T09:03:28Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-04-06T09:15:11Z",
+      "commentsCount": 3,
       "reactionCount": 0,
       "labels": [
         {
