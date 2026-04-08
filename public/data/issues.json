@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-08T01:50:01.423Z",
-  "totalIssues": 12,
+  "lastUpdated": "2026-04-08T07:09:33.290Z",
+  "totalIssues": 11,
   "repoCount": 5,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7499
+      "stars": 7500
     },
     {
       "id": 101657836,
@@ -167,42 +167,6 @@
         "url": "https://github.com/btcpayserver/btcpayserver-translator"
       },
       "assignees": [],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
-      }
-    },
-    {
-      "id": 4128393046,
-      "number": 178,
-      "type": "issue",
-      "title": "[Refactor] Align Plugin Builder Builds/Owners tabs with BTCPay Server report tab",
-      "body": "Plugin Builder currently has Builds and Owners tabs that do not align well with the Report tab structure in BTCPay Server.\n\nThis issue tracks reviewing those tabs and aligning naming, grouping, and layout where appropriate, to make more consistent across both applications.\n\n<img width=\"1130\" height=\"449\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/827e72d9-9113-4a8a-b6b2-47f4a2f2e4ab\" />\n<img width=\"1133\" height=\"436\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ce3f6b6c-acb5-4429-95ed-fa3dfc6cf1c2\" />\n<img width=\"1111\" height=\"186\" alt=\"Image\" src=\"https://githu",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/178",
-      "createdAt": "2026-03-24T14:34:15Z",
-      "updatedAt": "2026-04-03T09:12:17Z",
-      "commentsCount": 6,
-      "reactionCount": 2,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [
-        {
-          "login": "SusanGithaigaN",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/117893498?v=4",
-          "url": "https://github.com/SusanGithaigaN"
-        }
-      ],
       "author": {
         "login": "thgO-O",
         "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
@@ -485,7 +449,7 @@
       "body": "This PR is a prototype for #6902 \r\n\r\nhttps://github.com/user-attachments/assets/43281d64-b667-448b-ade9-29a0648a8288\r\n\r\nIt adds:\r\n\r\n- Global search (local nav index + server-backexd results).\r\n- Global top-right actions (notifications/account/server operations moved from sidebar context).\r\n- Navigation restructuring to keep store-focused items in the sidebar and global actions in the top bar.\r\n- A dismissible migration hint in the sidebar to guide users to the new top-right location for server/account navigation.\r\n- Mobile navigation adjustments, including moving store selection into the hambu",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7183",
       "createdAt": "2026-02-14T11:15:48Z",
-      "updatedAt": "2026-04-07T06:59:13Z",
+      "updatedAt": "2026-04-08T02:22:52Z",
       "commentsCount": 4,
       "reactionCount": 0,
       "labels": [
