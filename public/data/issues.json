@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-09T01:29:06.175Z",
-  "totalIssues": 11,
-  "repoCount": 5,
+  "lastUpdated": "2026-04-09T13:07:27.462Z",
+  "totalIssues": 13,
+  "repoCount": 6,
   "repos": [
     {
       "id": 100711978,
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7500
+      "stars": 7498
     },
     {
       "id": 101657836,
@@ -33,7 +33,19 @@
         "btcpayserver",
         "documentation"
       ],
-      "stars": 415
+      "stars": 414
+    },
+    {
+      "id": 249388671,
+      "name": "directory.btcpayserver.org",
+      "fullName": "btcpayserver/directory.btcpayserver.org",
+      "description": "BTCPay Server Directory - Merchants, Projects & Charities accepting Bitcoin",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org",
+      "language": "TypeScript",
+      "topics": [
+        "btcpayserver"
+      ],
+      "stars": 45
     },
     {
       "id": 563141684,
@@ -53,7 +65,7 @@
       "url": "https://github.com/btcpayserver/app",
       "language": "HTML",
       "topics": [],
-      "stars": 23
+      "stars": 22
     },
     {
       "id": 1054915099,
@@ -69,6 +81,74 @@
     }
   ],
   "issues": [
+    {
+      "id": 4226137089,
+      "number": 558,
+      "type": "issue",
+      "title": "New entry submission - Tour Guide Lite",
+      "body": "New submission:\n\nName: Tour Guide Lite\nUrl: https://tourguidelite.wificlashroom.online/\nType: merchants\nSubType: tools\nDescription: \n1. Sign in with Google\n2. Buy credits (10 free). 1 credit = 1 room session.\n3. Open a room instantly\n4. Go live. Broadcaster talks, listeners hear\n5. Done\n\nTourGuideLite is the pay-as-you-go version of TourGuidePro. No monthly subscription, no commitment. You buy\ncredits, each credit gives you one room session — use it whenever you need it, for as long as you need it.\nPerfect for spontaneous guides, one-off experiences, pop-up tours, or anyone who guides occasion",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/558",
+      "createdAt": "2026-04-08T16:45:44Z",
+      "updatedAt": "2026-04-09T10:03:59Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "fburrull",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17686616?v=4",
+        "url": "https://github.com/fburrull"
+      }
+    },
+    {
+      "id": 4202878386,
+      "number": 555,
+      "type": "issue",
+      "title": "New entry submission - Blockchange",
+      "body": "New submission:\n\nName: Blockchange\nUrl: https://www.blockchange.expert\nTwitter: BlockchangeExp\nType: merchants\nSubType: payment-services\nDescription: We design complete value flows across cards, banks, and local rails, with final settlement in bitcoin or stablecoins. Chargeback-free by design.",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/555",
+      "createdAt": "2026-04-04T01:23:13Z",
+      "updatedAt": "2026-04-09T10:03:58Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "learntheropes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5690126?v=4",
+        "url": "https://github.com/learntheropes"
+      }
+    },
     {
       "id": 4187170894,
       "number": 195,
