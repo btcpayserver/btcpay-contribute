@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T12:44:16.147Z",
+  "lastUpdated": "2026-04-12T18:37:15.867Z",
   "totalIssues": 11,
   "repoCount": 5,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7501
+      "stars": 7502
     },
     {
       "id": 101657836,
@@ -77,8 +77,8 @@
       "body": "## Description\n\nThe public plugin details page always loads the latest plugin version, and there is currently no public UI to select another version.\n\nAlthough the backend already exposes available versions, downloading a version other than the latest is currently only possible through the versioned public API endpoint.\n\nSuggestion:\n\n- Show a version selector on the public plugin details page when multiple versions exist\n- Default to the latest version\n- Update displayed version-specific details based on the selected version\n- Update the download action to use the selected version\n",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/195",
       "createdAt": "2026-04-01T14:00:18Z",
-      "updatedAt": "2026-04-01T14:25:50Z",
-      "commentsCount": 2,
+      "updatedAt": "2026-04-12T17:12:46Z",
+      "commentsCount": 3,
       "reactionCount": 0,
       "labels": [
         {
@@ -92,7 +92,13 @@
         "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
-      "assignees": [],
+      "assignees": [
+        {
+          "login": "SusanGithaigaN",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/117893498?v=4",
+          "url": "https://github.com/SusanGithaigaN"
+        }
+      ],
       "author": {
         "login": "thgO-O",
         "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
