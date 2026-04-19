@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T12:43:56.568Z",
+  "lastUpdated": "2026-04-19T18:38:42.615Z",
   "totalIssues": 12,
   "repoCount": 5,
   "repos": [
@@ -471,6 +471,66 @@
     }
   ],
   "testerItems": [
+    {
+      "id": 4276422146,
+      "number": 7324,
+      "type": "pr",
+      "title": "Feature: Administrators can \"log as\" any user",
+      "body": "## Motivation\r\n\r\nImpersonation is a security feature that allows one user to sign in as another user.\r\n\r\nA limited form of this already exists:\r\n\r\n* Before 2.3.8, an administrator could impersonate a user by issuing a Login Code QR code from the Point of Sale update page. After the QR code is scanned, the device is redirected to a logged-in Point of Sale page and can access the store’s invoices.\r\n* When a user asks for assistance, an administrator can review that user’s store settings through Server `Server Settings -> Users`. However, this only provides a read-only view of the store, which li",
+      "url": "https://github.com/btcpayserver/btcpayserver/pull/7324",
+      "createdAt": "2026-04-16T14:32:45Z",
+      "updatedAt": "2026-04-19T14:16:00Z",
+      "commentsCount": 3,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "User Testing",
+          "color": "F8ADDA"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver",
+        "fullName": "btcpayserver/btcpayserver",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver"
+      },
+      "assignees": [],
+      "author": {
+        "login": "NicolasDorier",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3020646?v=4",
+        "url": "https://github.com/NicolasDorier"
+      }
+    },
+    {
+      "id": 4187820905,
+      "number": 7290,
+      "type": "pr",
+      "title": "Allows merchants configure tax inclusion or exclusion",
+      "body": "Part of pending tax issues as stated here https://github.com/btcpayserver/btcpayserver/issues/6713\r\n\r\n\r\nThis PR aims to resolve\r\n\"Tax included or tax excluded price in keypad (allowing merchants to configure if the amount they apply in keypad includes tax or not)\"\r\n\r\n<img width=\"863\" height=\"229\" alt=\"image\" src=\"https://github.com/user-attachments/assets/44c56253-6b7a-465c-b20f-a4d0d978615d\" />\r\n\r\n<img width=\"527\" height=\"606\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ac09b542-6f54-4515-b835-79b3b65bfd52\" />\r\n\r\n<img width=\"492\" height=\"580\" alt=\"image\" src=\"https://github.co",
+      "url": "https://github.com/btcpayserver/btcpayserver/pull/7290",
+      "createdAt": "2026-04-01T15:26:11Z",
+      "updatedAt": "2026-04-19T14:16:16Z",
+      "commentsCount": 4,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "User Testing",
+          "color": "F8ADDA"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver",
+        "fullName": "btcpayserver/btcpayserver",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver"
+      },
+      "assignees": [],
+      "author": {
+        "login": "TChukwuleta",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47084273?v=4",
+        "url": "https://github.com/TChukwuleta"
+      }
+    },
     {
       "id": 3941153156,
       "number": 7183,
