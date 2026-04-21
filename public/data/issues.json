@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T01:57:11.927Z",
+  "lastUpdated": "2026-04-21T19:02:47.252Z",
   "totalIssues": 13,
   "repoCount": 5,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7522
+      "stars": 7524
     },
     {
       "id": 101657836,
@@ -77,8 +77,8 @@
       "body": "<img width=\"951\" height=\"407\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ebf96aec-7828-4ae1-b02b-b776c80c1124\" />",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/208",
       "createdAt": "2026-04-20T20:12:27Z",
-      "updatedAt": "2026-04-20T20:12:49Z",
-      "commentsCount": 0,
+      "updatedAt": "2026-04-21T14:04:04Z",
+      "commentsCount": 1,
       "reactionCount": 0,
       "labels": [
         {
@@ -92,7 +92,13 @@
         "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
-      "assignees": [],
+      "assignees": [
+        {
+          "login": "itsneruta",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/104377722?v=4",
+          "url": "https://github.com/itsneruta"
+        }
+      ],
       "author": {
         "login": "TChukwuleta",
         "avatarUrl": "https://avatars.githubusercontent.com/u/47084273?v=4",
@@ -107,8 +113,8 @@
       "body": "### Summary\n\nThe build creation API should perform the same pre-build identifier ownership validation that already exists in the web UI.\n\n### Problem\n\nToday, the web UI validates the plugin identifier before queueing the build, but the API does not.\n\nAs a result, API clients can queue and run a full build even when the plugin manifest identifier does not belong to the target plugin slug. The error is only discovered later during build processing.\n",
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/204",
       "createdAt": "2026-04-13T15:00:49Z",
-      "updatedAt": "2026-04-13T15:01:12Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-04-21T17:03:52Z",
+      "commentsCount": 2,
       "reactionCount": 1,
       "labels": [
         {
@@ -122,7 +128,13 @@
         "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
-      "assignees": [],
+      "assignees": [
+        {
+          "login": "makeentosch",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/102906241?v=4",
+          "url": "https://github.com/makeentosch"
+        }
+      ],
       "author": {
         "login": "thgO-O",
         "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
