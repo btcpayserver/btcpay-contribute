@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-21T19:02:47.252Z",
-  "totalIssues": 13,
+  "lastUpdated": "2026-04-22T01:55:55.670Z",
+  "totalIssues": 12,
   "repoCount": 5,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7524
+      "stars": 7525
     },
     {
       "id": 101657836,
@@ -69,42 +69,6 @@
     }
   ],
   "issues": [
-    {
-      "id": 4298394482,
-      "number": 208,
-      "type": "issue",
-      "title": "Review markup logo not visible on dark mode",
-      "body": "<img width=\"951\" height=\"407\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ebf96aec-7828-4ae1-b02b-b776c80c1124\" />",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/208",
-      "createdAt": "2026-04-20T20:12:27Z",
-      "updatedAt": "2026-04-21T14:04:04Z",
-      "commentsCount": 1,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [
-        {
-          "login": "itsneruta",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/104377722?v=4",
-          "url": "https://github.com/itsneruta"
-        }
-      ],
-      "author": {
-        "login": "TChukwuleta",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47084273?v=4",
-        "url": "https://github.com/TChukwuleta"
-      }
-    },
     {
       "id": 4255870756,
       "number": 204,
