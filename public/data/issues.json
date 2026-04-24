@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-24T13:06:26.204Z",
-  "totalIssues": 12,
+  "lastUpdated": "2026-04-24T18:40:26.131Z",
+  "totalIssues": 11,
   "repoCount": 5,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7527
+      "stars": 7528
     },
     {
       "id": 101657836,
@@ -167,40 +167,6 @@
         "fullName": "btcpayserver/btcpayserver-plugin-builder",
         "language": "C#",
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
-      }
-    },
-    {
-      "id": 4137213069,
-      "number": 34,
-      "type": "issue",
-      "title": "Language packs contain LLM/meta responses instead of translations",
-      "body": "## Description \n\nSome language pack entries appear to contain LLM meta responses rather than actual translations. For example, the key \"follow these instructions\" is translated as \"I'm ready to translate English text for BTCPay Server. Please provide the English text you'd like me to translate.\"\n\nBecause BTCPay imports these dictionaries as-is, those responses show up directly in the UI.\n\nThis suggests the translation pipeline/review process is allowing prompt-style or assistant-style responses into the published JSON files.\n\nI think this needs two things:\n\n- cleanup of the affected entries in",
-      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/34",
-      "createdAt": "2026-03-25T17:35:16Z",
-      "updatedAt": "2026-03-27T11:05:16Z",
-      "commentsCount": 7,
-      "reactionCount": 1,
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-translator",
-        "fullName": "btcpayserver/btcpayserver-translator",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-translator"
       },
       "assignees": [],
       "author": {
