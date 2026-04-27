@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-26T18:41:37.733Z",
-  "totalIssues": 11,
-  "repoCount": 5,
+  "lastUpdated": "2026-04-27T19:08:26.573Z",
+  "totalIssues": 7,
+  "repoCount": 3,
   "repos": [
     {
       "id": 100711978,
@@ -36,16 +36,6 @@
       "stars": 414
     },
     {
-      "id": 563141684,
-      "name": "btcpayserver-plugin-builder",
-      "fullName": "btcpayserver/btcpayserver-plugin-builder",
-      "description": "A server building plugins for BTCPay Server",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
-      "language": "C#",
-      "topics": [],
-      "stars": 26
-    },
-    {
       "id": 657155945,
       "name": "app",
       "fullName": "btcpayserver/app",
@@ -54,127 +44,9 @@
       "language": "HTML",
       "topics": [],
       "stars": 22
-    },
-    {
-      "id": 1054915099,
-      "name": "btcpayserver-translator",
-      "fullName": "btcpayserver/btcpayserver-translator",
-      "description": "A command-line tool to translate BTCPay Server's UI text to multiple languages using OpenRouter AI service. Now enjoy BTCPay Server in your local languages. ",
-      "url": "https://github.com/btcpayserver/btcpayserver-translator",
-      "language": "C#",
-      "topics": [
-        "hacktoberfest"
-      ],
-      "stars": 2
     }
   ],
   "issues": [
-    {
-      "id": 4255870756,
-      "number": 204,
-      "type": "issue",
-      "title": "API should perform pre-build identifier ownership validation",
-      "body": "### Summary\n\nThe build creation API should perform the same pre-build identifier ownership validation that already exists in the web UI.\n\n### Problem\n\nToday, the web UI validates the plugin identifier before queueing the build, but the API does not.\n\nAs a result, API clients can queue and run a full build even when the plugin manifest identifier does not belong to the target plugin slug. The error is only discovered later during build processing.\n",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/204",
-      "createdAt": "2026-04-13T15:00:49Z",
-      "updatedAt": "2026-04-21T17:03:52Z",
-      "commentsCount": 2,
-      "reactionCount": 1,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [
-        {
-          "login": "makeentosch",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/102906241?v=4",
-          "url": "https://github.com/makeentosch"
-        }
-      ],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
-      }
-    },
-    {
-      "id": 4187170894,
-      "number": 195,
-      "type": "issue",
-      "title": "[Feature] Allow selecting plugin version on the plugin details page",
-      "body": "## Description\n\nThe public plugin details page always loads the latest plugin version, and there is currently no public UI to select another version.\n\nAlthough the backend already exposes available versions, downloading a version other than the latest is currently only possible through the versioned public API endpoint.\n\nSuggestion:\n\n- Show a version selector on the public plugin details page when multiple versions exist\n- Default to the latest version\n- Update displayed version-specific details based on the selected version\n- Update the download action to use the selected version\n",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/195",
-      "createdAt": "2026-04-01T14:00:18Z",
-      "updatedAt": "2026-04-12T17:12:46Z",
-      "commentsCount": 3,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [
-        {
-          "login": "SusanGithaigaN",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/117893498?v=4",
-          "url": "https://github.com/SusanGithaigaN"
-        }
-      ],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
-      }
-    },
-    {
-      "id": 4152869573,
-      "number": 185,
-      "type": "issue",
-      "title": "[Bug]  Admin primary owner list changes with pagination",
-      "body": "## Description \n\nOn /admin/plugins, the Email Primary Owners button generates a different email list depending on the current table page. It should include primary owners from all plugins matching the current filters, not just the items shown on the current page.",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/185",
-      "createdAt": "2026-03-27T13:52:15Z",
-      "updatedAt": "2026-04-11T14:24:24Z",
-      "commentsCount": 1,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
-      }
-    },
     {
       "id": 4094633628,
       "number": 1564,
@@ -330,40 +202,6 @@
       }
     },
     {
-      "id": 3506661273,
-      "number": 1,
-      "type": "issue",
-      "title": "Add Support for More Languages in BTCPay Server Translator",
-      "body": "### Description\n\nThe BTCPay Server Translator currently supports several key languages, but we’re looking to **expand support for more widely used global languages** to make BTCPay Server accessible to even more users.\n\nThis issue tracks adding **new major languages** to the translation tool and updating relevant configuration, documentation, and testing.\n\n---\n\n###  Currently Supported Languages\n\nThe following translations are already available:\n\n- 🇫🇷 French (`french.json`)\n- 🇮🇳 Hindi (`hindi.json`)\n- 🇯🇵 Japanese (`japanese.json`)\n- 🇧🇷 Portuguese (Brazil) (`portuguese (brazil).json`)\n-",
-      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/1",
-      "createdAt": "2025-10-12T04:32:49Z",
-      "updatedAt": "2026-03-25T19:01:21Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Hacktoberfest",
-          "color": "cb7426"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-translator",
-        "fullName": "btcpayserver/btcpayserver-translator",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-translator"
-      },
-      "assignees": [],
-      "author": {
-        "login": "Abhijay007",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/64387054?v=4",
-        "url": "https://github.com/Abhijay007"
-      }
-    },
-    {
       "id": 3051345641,
       "number": 202,
       "type": "issue",
@@ -442,128 +280,7 @@
       }
     }
   ],
-  "testerItems": [
-    {
-      "id": 4187820905,
-      "number": 7290,
-      "type": "pr",
-      "title": "Allows merchants configure tax inclusion or exclusion",
-      "body": "Part of pending tax issues as stated here https://github.com/btcpayserver/btcpayserver/issues/6713\r\n\r\n\r\nThis PR aims to resolve\r\n\"Tax included or tax excluded price in keypad (allowing merchants to configure if the amount they apply in keypad includes tax or not)\"\r\n\r\n<img width=\"863\" height=\"229\" alt=\"image\" src=\"https://github.com/user-attachments/assets/44c56253-6b7a-465c-b20f-a4d0d978615d\" />\r\n\r\n<img width=\"527\" height=\"606\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ac09b542-6f54-4515-b835-79b3b65bfd52\" />\r\n\r\n<img width=\"492\" height=\"580\" alt=\"image\" src=\"https://github.co",
-      "url": "https://github.com/btcpayserver/btcpayserver/pull/7290",
-      "createdAt": "2026-04-01T15:26:11Z",
-      "updatedAt": "2026-04-19T14:16:16Z",
-      "commentsCount": 4,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "User Testing",
-          "color": "F8ADDA"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver",
-        "fullName": "btcpayserver/btcpayserver",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver"
-      },
-      "assignees": [],
-      "author": {
-        "login": "TChukwuleta",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47084273?v=4",
-        "url": "https://github.com/TChukwuleta"
-      }
-    },
-    {
-      "id": 3941153156,
-      "number": 7183,
-      "type": "pr",
-      "title": "Refactor navigation: topbar global actions and unified search",
-      "body": "This PR is a prototype for #6902 \r\n\r\nhttps://github.com/user-attachments/assets/43281d64-b667-448b-ade9-29a0648a8288\r\n\r\nIt adds:\r\n\r\n- Global search (local nav index + server-backexd results).\r\n- Global top-right actions (notifications/account/server operations moved from sidebar context).\r\n- Navigation restructuring to keep store-focused items in the sidebar and global actions in the top bar.\r\n- A dismissible migration hint in the sidebar to guide users to the new top-right location for server/account navigation.\r\n- Mobile navigation adjustments, including moving store selection into the hambu",
-      "url": "https://github.com/btcpayserver/btcpayserver/pull/7183",
-      "createdAt": "2026-02-14T11:15:48Z",
-      "updatedAt": "2026-04-08T13:48:25Z",
-      "commentsCount": 4,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "User Testing",
-          "color": "F8ADDA"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver",
-        "fullName": "btcpayserver/btcpayserver",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver"
-      },
-      "assignees": [],
-      "author": {
-        "login": "pavlenex",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/36959754?v=4",
-        "url": "https://github.com/pavlenex"
-      }
-    },
-    {
-      "id": 3845970951,
-      "number": 7133,
-      "type": "pr",
-      "title": "feat(wallets): add transaction search and date filters.",
-      "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
-      "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
-      "createdAt": "2026-01-23T05:57:10Z",
-      "updatedAt": "2026-04-25T00:17:53Z",
-      "commentsCount": 21,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "User Testing",
-          "color": "F8ADDA"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver",
-        "fullName": "btcpayserver/btcpayserver",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver"
-      },
-      "assignees": [],
-      "author": {
-        "login": "Sup3rlativ3",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1555043?v=4",
-        "url": "https://github.com/Sup3rlativ3"
-      }
-    },
-    {
-      "id": 3825231620,
-      "number": 7113,
-      "type": "pr",
-      "title": "UI: clarify LND seed recovery expectations",
-      "body": "Fixes #5612.\n\nClarifies the LND Seed Backup page copy to set correct expectations for recovery steps under some deployments (e.g. BTCPay Server Docker), where LND may be initialized/unlocked automatically and recovery may require an interactive shell (TTY) and temporarily disabling automatic init/unlock.\n\nChanges:\n- Add a short clarification paragraph on the LND Seed Backup page.\n- Add the new string to Translations.Default.cs for localization support.\n\nHow to verify:\n- Server → Services → LND Seed Backup: confirm the new paragraph appears above the link to LND's recovery documentation.\n\nNote:",
-      "url": "https://github.com/btcpayserver/btcpayserver/pull/7113",
-      "createdAt": "2026-01-17T13:58:16Z",
-      "updatedAt": "2026-04-01T12:37:06Z",
-      "commentsCount": 7,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "User Testing",
-          "color": "F8ADDA"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver",
-        "fullName": "btcpayserver/btcpayserver",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver"
-      },
-      "assignees": [],
-      "author": {
-        "login": "esixce",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/98708432?v=4",
-        "url": "https://github.com/esixce"
-      }
-    }
-  ],
+  "testerItems": [],
   "writerIssues": [
     {
       "id": 4094633628,
