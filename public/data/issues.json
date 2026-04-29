@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-29T02:13:28.375Z",
-  "totalIssues": 12,
+  "lastUpdated": "2026-04-29T19:14:34.333Z",
+  "totalIssues": 13,
   "repoCount": 5,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7535
+      "stars": 7534
     },
     {
       "id": 101657836,
@@ -69,6 +69,36 @@
     }
   ],
   "issues": [
+    {
+      "id": 4351010741,
+      "number": 215,
+      "type": "issue",
+      "title": "Poor contrast on Listing Requests count badge in dark mode",
+      "body": "In dark mode, the request count badge next to Listing Requests is hard to read. The badge uses a yellow/orange background with a very light number color, which creates low contrast and makes the number difficult to see.\n\n<img width=\"277\" height=\"513\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/cecd0daf-2951-4a04-ac3d-ef021ad1672e\" />",
+      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/215",
+      "createdAt": "2026-04-29T13:43:25Z",
+      "updatedAt": "2026-04-29T13:43:25Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-plugin-builder",
+        "fullName": "btcpayserver/btcpayserver-plugin-builder",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
+      },
+      "assignees": [],
+      "author": {
+        "login": "thgO-O",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
+        "url": "https://github.com/thgO-O"
+      }
+    },
     {
       "id": 4344340577,
       "number": 213,
