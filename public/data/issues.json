@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T13:03:22.006Z",
+  "lastUpdated": "2026-05-01T19:01:33.237Z",
   "totalIssues": 13,
   "repoCount": 5,
   "repos": [
@@ -69,6 +69,40 @@
     }
   ],
   "issues": [
+    {
+      "id": 4364640483,
+      "number": 218,
+      "type": "issue",
+      "title": "Plugin owner badge overflows in request listing with long email addresses",
+      "body": "## Description\n\nIn the request listing view, the `Plugin Owners` section can overflow horizontally when the owner email address is long.\n\nA long owner identifier can push the `Primary` badge outside the card boundary.\n\n<img width=\"1627\" height=\"967\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/dbe6842a-604c-46df-8271-8d121240afa3\" />",
+      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/218",
+      "createdAt": "2026-05-01T13:35:35Z",
+      "updatedAt": "2026-05-01T13:35:58Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "bug",
+          "color": "d73a4a"
+        },
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-plugin-builder",
+        "fullName": "btcpayserver/btcpayserver-plugin-builder",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
+      },
+      "assignees": [],
+      "author": {
+        "login": "thgO-O",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
+        "url": "https://github.com/thgO-O"
+      }
+    },
     {
       "id": 4351010741,
       "number": 215,
@@ -167,42 +201,6 @@
           "login": "makeentosch",
           "avatarUrl": "https://avatars.githubusercontent.com/u/102906241?v=4",
           "url": "https://github.com/makeentosch"
-        }
-      ],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
-      }
-    },
-    {
-      "id": 4187170894,
-      "number": 195,
-      "type": "issue",
-      "title": "[Feature] Allow selecting plugin version on the plugin details page",
-      "body": "## Description\n\nThe public plugin details page always loads the latest plugin version, and there is currently no public UI to select another version.\n\nAlthough the backend already exposes available versions, downloading a version other than the latest is currently only possible through the versioned public API endpoint.\n\nSuggestion:\n\n- Show a version selector on the public plugin details page when multiple versions exist\n- Default to the latest version\n- Update displayed version-specific details based on the selected version\n- Update the download action to use the selected version\n",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/195",
-      "createdAt": "2026-04-01T14:00:18Z",
-      "updatedAt": "2026-04-12T17:12:46Z",
-      "commentsCount": 3,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [
-        {
-          "login": "SusanGithaigaN",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/117893498?v=4",
-          "url": "https://github.com/SusanGithaigaN"
         }
       ],
       "author": {
