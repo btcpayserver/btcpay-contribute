@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T02:04:31.991Z",
+  "lastUpdated": "2026-05-02T12:54:07.577Z",
   "totalIssues": 13,
   "repoCount": 5,
   "repos": [
@@ -43,7 +43,7 @@
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
       "language": "C#",
       "topics": [],
-      "stars": 26
+      "stars": 25
     },
     {
       "id": 657155945,
