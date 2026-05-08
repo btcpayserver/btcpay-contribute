@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-08T07:19:58.891Z",
-  "totalIssues": 13,
+  "lastUpdated": "2026-05-08T13:15:56.322Z",
+  "totalIssues": 14,
   "repoCount": 6,
   "repos": [
     {
@@ -81,6 +81,40 @@
     }
   ],
   "issues": [
+    {
+      "id": 4405776061,
+      "number": 57,
+      "type": "issue",
+      "title": "Add Italian translation for BTCPay server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Italian** translation. An Italian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Italian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through the file and correct any mistranslations\n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved unchanged (`{0}`, `{{name}}`, etc.)\n- [ ] Open a PR with the corrected file \n\n## File to review\nG",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/57",
+      "createdAt": "2026-05-08T10:45:03Z",
+      "updatedAt": "2026-05-08T12:50:11Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
     {
       "id": 4401968378,
       "number": 563,
