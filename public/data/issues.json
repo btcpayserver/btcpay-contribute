@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-08T02:26:56.226Z",
-  "totalIssues": 12,
+  "lastUpdated": "2026-05-08T07:19:58.891Z",
+  "totalIssues": 13,
   "repoCount": 6,
   "repos": [
     {
@@ -81,6 +81,40 @@
     }
   ],
   "issues": [
+    {
+      "id": 4401968378,
+      "number": 563,
+      "type": "issue",
+      "title": "New entry submission - La Industria Handmade",
+      "body": "New submission:\n\nName: La Industria Handmade\nUrl: https://laindustriahandmade.com/\nTwitter: laIndustriahand\nType: merchants\nSubType: fashion\nDescription: ✋ ❤️ Textile accessories carefully handmade with attention to detail. Minimalist design with maximum functionality. 🎁 💡 Original Gift Ideas.🌐 Worldwide Shipping",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/563",
+      "createdAt": "2026-05-07T20:57:52Z",
+      "updatedAt": "2026-05-08T03:28:45Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "alekqss",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/115633777?v=4",
+        "url": "https://github.com/alekqss"
+      }
+    },
     {
       "id": 4365661162,
       "number": 562,
