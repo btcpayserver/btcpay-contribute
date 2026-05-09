@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-09T02:11:36.909Z",
-  "totalIssues": 14,
+  "lastUpdated": "2026-05-09T07:47:05.645Z",
+  "totalIssues": 13,
   "repoCount": 6,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7551
+      "stars": 7552
     },
     {
       "id": 101657836,
@@ -207,46 +207,6 @@
         "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
       },
       "assignees": [],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
-      }
-    },
-    {
-      "id": 4344340577,
-      "number": 213,
-      "type": "issue",
-      "title": "[Feature] Add an Unlisted indicator for plugins in public directory search results",
-      "body": "Currently, when a user searches the public plugin directory, listed and unlisted plugins appear visually identical in the results.\n\nExample scenario:\n\nA user searches for a plugin author in the public directory.\nThe results include both listed and unlisted plugins by that author.\nAll plugin entries look the same.\nThe user cannot tell which plugins are unlisted.\nExpected behavior:\n\nUnlisted plugins should have a clear visual indicator in the public directory UI, such as an Unlisted badge/flag next to the plugin name or status area.\n\nThis would make it clear to users that the plugin is available",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/213",
-      "createdAt": "2026-04-28T15:30:39Z",
-      "updatedAt": "2026-04-28T23:26:00Z",
-      "commentsCount": 1,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "enhancement",
-          "color": "a2eeef"
-        },
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [
-        {
-          "login": "ak91456",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/115034352?v=4",
-          "url": "https://github.com/ak91456"
-        }
-      ],
       "author": {
         "login": "thgO-O",
         "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
