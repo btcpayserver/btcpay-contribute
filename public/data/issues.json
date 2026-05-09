@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-09T07:47:05.645Z",
-  "totalIssues": 13,
+  "lastUpdated": "2026-05-09T13:00:34.958Z",
+  "totalIssues": 22,
   "repoCount": 6,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7552
+      "stars": 7550
     },
     {
       "id": 101657836,
@@ -81,6 +81,312 @@
     }
   ],
   "issues": [
+    {
+      "id": 4411489504,
+      "number": 67,
+      "type": "issue",
+      "title": "Add Turkish translation for BTCPay server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Turkish** translation. A Turkish translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Turkish speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/turkish.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/67",
+      "createdAt": "2026-05-09T06:35:43Z",
+      "updatedAt": "2026-05-09T08:35:23Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411485637,
+      "number": 66,
+      "type": "issue",
+      "title": "Add Thai translation for the BTCPay Server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Thai** translation. A Thai translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Thai speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/thai.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved unchanged (`{",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/66",
+      "createdAt": "2026-05-09T06:34:26Z",
+      "updatedAt": "2026-05-09T08:35:17Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411482251,
+      "number": 65,
+      "type": "issue",
+      "title": "Add Russian translation for BTCPay Server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Russian** translation. A Russian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Russian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/russian.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/65",
+      "createdAt": "2026-05-09T06:33:17Z",
+      "updatedAt": "2026-05-09T08:35:02Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411480093,
+      "number": 64,
+      "type": "issue",
+      "title": "Add Norwegian translation for BTCPay Server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Norwegian** translation. A Norwegian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Norwegian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/norwegian.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are pre",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/64",
+      "createdAt": "2026-05-09T06:32:18Z",
+      "updatedAt": "2026-05-09T08:35:09Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411477534,
+      "number": 63,
+      "type": "issue",
+      "title": "Add Korean translation for BTCPay Server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Korean** translation. A Korean translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Korean speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/korean.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved uncha",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/63",
+      "createdAt": "2026-05-09T06:31:05Z",
+      "updatedAt": "2026-05-09T08:34:55Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411474621,
+      "number": 62,
+      "type": "issue",
+      "title": "Add Japanese translation for BTCPay Server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Japanese** translation. A Japanese translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Italian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/japanese.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserve",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/62",
+      "createdAt": "2026-05-09T06:29:54Z",
+      "updatedAt": "2026-05-09T08:34:47Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411470340,
+      "number": 61,
+      "type": "issue",
+      "title": "Add Indonesian translation for the BTCPay Server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Indonesian** translation. An Indonesian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Indonesian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/indonesian.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders ar",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/61",
+      "createdAt": "2026-05-09T06:28:22Z",
+      "updatedAt": "2026-05-09T08:33:21Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411465340,
+      "number": 60,
+      "type": "issue",
+      "title": "Add German translation for BTCPay Server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **German** translation. A German translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent German speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/german.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved uncha",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/60",
+      "createdAt": "2026-05-09T06:26:48Z",
+      "updatedAt": "2026-05-09T08:33:13Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
+    {
+      "id": 4411461679,
+      "number": 59,
+      "type": "issue",
+      "title": "Add Dutch translation for BTCPay server",
+      "body": "## Description\n\nBTCPay Server currently does not have an **Dutch** translation. A Dutch translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Italian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/dutch.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved unchang",
+      "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/59",
+      "createdAt": "2026-05-09T06:25:25Z",
+      "updatedAt": "2026-05-09T08:33:00Z",
+      "commentsCount": 1,
+      "reactionCount": 1,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "recruitment",
+          "color": "e6d84e"
+        }
+      ],
+      "repo": {
+        "name": "btcpayserver-translator",
+        "fullName": "btcpayserver/btcpayserver-translator",
+        "language": "C#",
+        "url": "https://github.com/btcpayserver/btcpayserver-translator"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Sanja22B",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
+        "url": "https://github.com/Sanja22B"
+      }
+    },
     {
       "id": 4405776061,
       "number": 57,
@@ -396,9 +702,9 @@
       },
       "assignees": [],
       "author": {
-        "login": "petzsch",
+        "login": "mp21-org",
         "avatarUrl": "https://avatars.githubusercontent.com/u/1374810?v=4",
-        "url": "https://github.com/petzsch"
+        "url": "https://github.com/mp21-org"
       }
     },
     {
@@ -409,7 +715,7 @@
       "body": "### Description\n\nThe BTCPay Server Translator currently supports several key languages, but we’re looking to **expand support for more widely used global languages** to make BTCPay Server accessible to even more users.\n\nThis issue tracks adding **new major languages** to the translation tool and updating relevant configuration, documentation, and testing.\n\n---\n\n###  Currently Supported Languages\n\nThe following translations are already available:\n\n- 🇫🇷 French (`french.json`)\n- 🇮🇳 Hindi (`hindi.json`)\n- 🇯🇵 Japanese (`japanese.json`)\n- 🇧🇷 Portuguese (Brazil) (`portuguese (brazil).json`)\n-",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/1",
       "createdAt": "2025-10-12T04:32:49Z",
-      "updatedAt": "2026-03-25T19:01:21Z",
+      "updatedAt": "2026-05-09T08:34:04Z",
       "commentsCount": 0,
       "reactionCount": 0,
       "labels": [
@@ -752,9 +1058,9 @@
       },
       "assignees": [],
       "author": {
-        "login": "petzsch",
+        "login": "mp21-org",
         "avatarUrl": "https://avatars.githubusercontent.com/u/1374810?v=4",
-        "url": "https://github.com/petzsch"
+        "url": "https://github.com/mp21-org"
       }
     }
   ]
