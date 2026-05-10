@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T13:00:34.958Z",
+  "lastUpdated": "2026-05-10T02:13:09.962Z",
   "totalIssues": 22,
   "repoCount": 6,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7550
+      "stars": 7549
     },
     {
       "id": 101657836,
@@ -397,7 +397,7 @@
       "createdAt": "2026-05-08T10:45:03Z",
       "updatedAt": "2026-05-08T21:13:06Z",
       "commentsCount": 2,
-      "reactionCount": 4,
+      "reactionCount": 5,
       "labels": [
         {
           "name": "good first issue",
