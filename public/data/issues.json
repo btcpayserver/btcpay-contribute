@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-11T19:29:55.356Z",
-  "totalIssues": 22,
+  "lastUpdated": "2026-05-12T19:40:29.694Z",
+  "totalIssues": 24,
   "repoCount": 6,
   "repos": [
     {
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7555
+      "stars": 7556
     },
     {
       "id": 101657836,
@@ -81,6 +81,74 @@
     }
   ],
   "issues": [
+    {
+      "id": 4428724034,
+      "number": 565,
+      "type": "issue",
+      "title": "New entry submission - Lifeproject 3003",
+      "body": "New submission:\n\nName: Lifeproject 3003\nUrl: https://lifeproject3003.com/\nType: merchants\nSubType: tools\nDescription: LifeProject3003 Geolocalizada\nBaliza V16 Homologada y Geolocalizada\nBitcoin and LN payment (with btcpayserver) accepted",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/565",
+      "createdAt": "2026-05-12T11:32:02Z",
+      "updatedAt": "2026-05-12T17:26:03Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Nailuj2k",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1003969?v=4",
+        "url": "https://github.com/Nailuj2k"
+      }
+    },
+    {
+      "id": 4414122650,
+      "number": 564,
+      "type": "issue",
+      "title": "New entry submission - BTCPay Latin America",
+      "body": "New submission:\n\nName: BTCPay Latin America\nUrl: https://btcpay.lat\nType: hosted-btcpay\nCountry: MX\nDescription: Acepta Bitcoin en tu negocio con BTCPay.lat: costo accesible desde 100 MXN/mes, configuración fácil sin complicaciones técnicas y control total de tus fondos en tu wallet.\nTwitter/X: https://x.com/BTCPay_Latam",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/564",
+      "createdAt": "2026-05-09T23:36:57Z",
+      "updatedAt": "2026-05-12T17:26:02Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "Wired4ncer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102553581?v=4",
+        "url": "https://github.com/Wired4ncer"
+      }
+    },
     {
       "id": 4411489504,
       "number": 67,
@@ -889,7 +957,7 @@
       "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
       "createdAt": "2026-01-23T05:57:10Z",
-      "updatedAt": "2026-05-11T03:49:38Z",
+      "updatedAt": "2026-05-11T22:58:49Z",
       "commentsCount": 22,
       "reactionCount": 0,
       "labels": [
