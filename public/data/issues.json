@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T02:32:46.943Z",
+  "lastUpdated": "2026-05-14T19:30:35.242Z",
   "totalIssues": 24,
   "repoCount": 6,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7557
+      "stars": 7558
     },
     {
       "id": 101657836,
@@ -897,8 +897,8 @@
       "body": "Part of pending tax issues as stated here https://github.com/btcpayserver/btcpayserver/issues/6713\r\n\r\n\r\nThis PR aims to resolve\r\n\"Tax included or tax excluded price in keypad (allowing merchants to configure if the amount they apply in keypad includes tax or not)\"\r\n\r\n<img width=\"863\" height=\"229\" alt=\"image\" src=\"https://github.com/user-attachments/assets/44c56253-6b7a-465c-b20f-a4d0d978615d\" />\r\n\r\n<img width=\"527\" height=\"606\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ac09b542-6f54-4515-b835-79b3b65bfd52\" />\r\n\r\n<img width=\"492\" height=\"580\" alt=\"image\" src=\"https://github.co",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7290",
       "createdAt": "2026-04-01T15:26:11Z",
-      "updatedAt": "2026-05-07T03:16:49Z",
-      "commentsCount": 4,
+      "updatedAt": "2026-05-14T10:03:26Z",
+      "commentsCount": 5,
       "reactionCount": 0,
       "labels": [
         {
@@ -927,8 +927,8 @@
       "body": "# Motivation\r\n\r\nIt aims to solve a few UX problems:\r\n\r\n- It clearly separates store-level and server-level flows, which should reduce confusion around overlapping areas (for example settings like emails appearing in both contexts).\r\n- It adds a global search experience so users can quickly find pages/settings instead of remembering where nested options live, similar to system-level search patterns users know from Apple platforms.\r\n- It frees sidebar space for plugin-related navigation and extensions.\r\n\r\nSee design discussions on #6902 \r\n\r\n# Video\r\n\r\nhttps://github.com/user-attachments/assets/9",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7183",
       "createdAt": "2026-02-14T11:15:48Z",
-      "updatedAt": "2026-05-14T02:17:04Z",
-      "commentsCount": 4,
+      "updatedAt": "2026-05-14T07:59:42Z",
+      "commentsCount": 6,
       "reactionCount": 1,
       "labels": [
         {
