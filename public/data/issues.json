@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T19:44:33.396Z",
+  "lastUpdated": "2026-05-14T02:32:46.943Z",
   "totalIssues": 24,
   "repoCount": 6,
   "repos": [
@@ -924,12 +924,12 @@
       "number": 7183,
       "type": "pr",
       "title": "Feature: New global search bar to improve navigation",
-      "body": "This PR is a prototype for #6902 \r\n\r\nhttps://github.com/user-attachments/assets/43281d64-b667-448b-ade9-29a0648a8288\r\n\r\nIt adds:\r\n\r\n- Global search (local nav index + server-backexd results).\r\n- Global top-right actions (notifications/account/server operations moved from sidebar context).\r\n- Navigation restructuring to keep store-focused items in the sidebar and global actions in the top bar.\r\n- A dismissible migration hint in the sidebar to guide users to the new top-right location for server/account navigation.\r\n- Mobile navigation adjustments, including moving store selection into the hambu",
+      "body": "# Motivation\r\n\r\nIt aims to solve a few UX problems:\r\n\r\n- It clearly separates store-level and server-level flows, which should reduce confusion around overlapping areas (for example settings like emails appearing in both contexts).\r\n- It adds a global search experience so users can quickly find pages/settings instead of remembering where nested options live, similar to system-level search patterns users know from Apple platforms.\r\n- It frees sidebar space for plugin-related navigation and extensions.\r\n\r\nSee design discussions on #6902 \r\n\r\n# Video\r\n\r\nhttps://github.com/user-attachments/assets/9",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7183",
       "createdAt": "2026-02-14T11:15:48Z",
-      "updatedAt": "2026-05-13T14:02:51Z",
+      "updatedAt": "2026-05-14T02:17:04Z",
       "commentsCount": 4,
-      "reactionCount": 0,
+      "reactionCount": 1,
       "labels": [
         {
           "name": "User Testing",
