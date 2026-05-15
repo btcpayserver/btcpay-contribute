@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T19:30:35.242Z",
+  "lastUpdated": "2026-05-15T02:32:03.560Z",
   "totalIssues": 24,
   "repoCount": 6,
   "repos": [
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7558
+      "stars": 7560
     },
     {
       "id": 101657836,
@@ -33,7 +33,7 @@
         "btcpayserver",
         "documentation"
       ],
-      "stars": 415
+      "stars": 416
     },
     {
       "id": 249388671,
@@ -55,7 +55,7 @@
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
       "language": "C#",
       "topics": [],
-      "stars": 25
+      "stars": 26
     },
     {
       "id": 657155945,
@@ -920,36 +920,6 @@
       }
     },
     {
-      "id": 3941153156,
-      "number": 7183,
-      "type": "pr",
-      "title": "Feature: New global search bar to improve navigation",
-      "body": "# Motivation\r\n\r\nIt aims to solve a few UX problems:\r\n\r\n- It clearly separates store-level and server-level flows, which should reduce confusion around overlapping areas (for example settings like emails appearing in both contexts).\r\n- It adds a global search experience so users can quickly find pages/settings instead of remembering where nested options live, similar to system-level search patterns users know from Apple platforms.\r\n- It frees sidebar space for plugin-related navigation and extensions.\r\n\r\nSee design discussions on #6902 \r\n\r\n# Video\r\n\r\nhttps://github.com/user-attachments/assets/9",
-      "url": "https://github.com/btcpayserver/btcpayserver/pull/7183",
-      "createdAt": "2026-02-14T11:15:48Z",
-      "updatedAt": "2026-05-14T07:59:42Z",
-      "commentsCount": 6,
-      "reactionCount": 1,
-      "labels": [
-        {
-          "name": "User Testing",
-          "color": "F8ADDA"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver",
-        "fullName": "btcpayserver/btcpayserver",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver"
-      },
-      "assignees": [],
-      "author": {
-        "login": "pavlenex",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/36959754?v=4",
-        "url": "https://github.com/pavlenex"
-      }
-    },
-    {
       "id": 3845970951,
       "number": 7133,
       "type": "pr",
@@ -957,7 +927,7 @@
       "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
       "createdAt": "2026-01-23T05:57:10Z",
-      "updatedAt": "2026-05-13T04:36:49Z",
+      "updatedAt": "2026-05-15T01:34:38Z",
       "commentsCount": 22,
       "reactionCount": 0,
       "labels": [
