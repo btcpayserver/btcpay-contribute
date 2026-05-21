@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-20T14:44:28.489Z",
-  "totalIssues": 23,
+  "lastUpdated": "2026-05-21T09:26:01.510Z",
+  "totalIssues": 25,
   "repoCount": 6,
   "repos": [
     {
@@ -81,6 +81,74 @@
     }
   ],
   "issues": [
+    {
+      "id": 4489581218,
+      "number": 567,
+      "type": "issue",
+      "title": "New entry submission - Stack",
+      "body": "New submission:\n\nName: Stack\nUrl: https://stackatm.com/\nTwitter: unbankworld\nType: apps\nDescription: Stack is a non-custodial exchange that allows users to buy Bitcoin with the privacy of cash at over 50k locations or cash out with ZERO fees.",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/567",
+      "createdAt": "2026-05-20T20:09:36Z",
+      "updatedAt": "2026-05-21T05:45:12Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "mshandler39",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/190508228?v=4",
+        "url": "https://github.com/mshandler39"
+      }
+    },
+    {
+      "id": 4489575020,
+      "number": 566,
+      "type": "issue",
+      "title": "New entry submission - Unbank",
+      "body": "New submission:\n\nName: Unbank\nUrl: https://unbank.com/\nTwitter: unbankworld\nType: apps\nDescription: Unbank is a non-custodial exchange that allows users to buy Bitcoin with the privacy of cash at over 50k locations or cash out with ZERO fees.",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/566",
+      "createdAt": "2026-05-20T20:08:36Z",
+      "updatedAt": "2026-05-21T05:45:11Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "mshandler39",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/190508228?v=4",
+        "url": "https://github.com/mshandler39"
+      }
+    },
     {
       "id": 4428724034,
       "number": 565,
