@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-05-21T14:49:02.943Z",
-  "totalIssues": 25,
-  "repoCount": 6,
+  "lastUpdated": "2026-05-21T19:45:55.138Z",
+  "totalIssues": 19,
+  "repoCount": 5,
   "repos": [
     {
       "id": 100711978,
@@ -20,7 +20,7 @@
         "point-of-sale",
         "selfhosted"
       ],
-      "stars": 7573
+      "stars": 7575
     },
     {
       "id": 101657836,
@@ -34,18 +34,6 @@
         "documentation"
       ],
       "stars": 417
-    },
-    {
-      "id": 249388671,
-      "name": "directory.btcpayserver.org",
-      "fullName": "btcpayserver/directory.btcpayserver.org",
-      "description": "BTCPay Server Directory - Merchants, Projects & Charities accepting Bitcoin",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org",
-      "language": "TypeScript",
-      "topics": [
-        "btcpayserver"
-      ],
-      "stars": 46
     },
     {
       "id": 563141684,
@@ -81,142 +69,6 @@
     }
   ],
   "issues": [
-    {
-      "id": 4489581218,
-      "number": 567,
-      "type": "issue",
-      "title": "New entry submission - Stack",
-      "body": "New submission:\n\nName: Stack\nUrl: https://stackatm.com/\nTwitter: unbankworld\nType: apps\nDescription: Stack is a non-custodial exchange that allows users to buy Bitcoin with the privacy of cash at over 50k locations or cash out with ZERO fees.",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/567",
-      "createdAt": "2026-05-20T20:09:36Z",
-      "updatedAt": "2026-05-21T05:45:12Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "mshandler39",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/190508228?v=4",
-        "url": "https://github.com/mshandler39"
-      }
-    },
-    {
-      "id": 4489575020,
-      "number": 566,
-      "type": "issue",
-      "title": "New entry submission - Unbank",
-      "body": "New submission:\n\nName: Unbank\nUrl: https://unbank.com/\nTwitter: unbankworld\nType: apps\nDescription: Unbank is a non-custodial exchange that allows users to buy Bitcoin with the privacy of cash at over 50k locations or cash out with ZERO fees.",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/566",
-      "createdAt": "2026-05-20T20:08:36Z",
-      "updatedAt": "2026-05-21T05:45:11Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "mshandler39",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/190508228?v=4",
-        "url": "https://github.com/mshandler39"
-      }
-    },
-    {
-      "id": 4428724034,
-      "number": 565,
-      "type": "issue",
-      "title": "New entry submission - Lifeproject 3003",
-      "body": "New submission:\n\nName: Lifeproject 3003\nUrl: https://lifeproject3003.com/\nType: merchants\nSubType: tools\nDescription: LifeProject3003 Geolocalizada\nBaliza V16 Homologada y Geolocalizada\nBitcoin and LN payment (with btcpayserver) accepted",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/565",
-      "createdAt": "2026-05-12T11:32:02Z",
-      "updatedAt": "2026-05-12T17:26:03Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "Nailuj2k",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1003969?v=4",
-        "url": "https://github.com/Nailuj2k"
-      }
-    },
-    {
-      "id": 4414122650,
-      "number": 564,
-      "type": "issue",
-      "title": "New entry submission - BTCPay Latin America",
-      "body": "New submission:\n\nName: BTCPay Latin America\nUrl: https://btcpay.lat\nType: hosted-btcpay\nCountry: MX\nDescription: Acepta Bitcoin en tu negocio con BTCPay.lat: costo accesible desde 100 MXN/mes, configuración fácil sin complicaciones técnicas y control total de tus fondos en tu wallet.\nTwitter/X: https://x.com/BTCPay_Latam",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/564",
-      "createdAt": "2026-05-09T23:36:57Z",
-      "updatedAt": "2026-05-12T17:26:02Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "Wired4ncer",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/102553581?v=4",
-        "url": "https://github.com/Wired4ncer"
-      }
-    },
     {
       "id": 4411489504,
       "number": 67,
@@ -555,74 +407,6 @@
         "login": "Sanja22B",
         "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
         "url": "https://github.com/Sanja22B"
-      }
-    },
-    {
-      "id": 4401968378,
-      "number": 563,
-      "type": "issue",
-      "title": "New entry submission - La Industria Handmade",
-      "body": "New submission:\n\nName: La Industria Handmade\nUrl: https://laindustriahandmade.com/\nTwitter: laIndustriahand\nType: merchants\nSubType: fashion\nDescription: ✋ ❤️ Textile accessories carefully handmade with attention to detail. Minimalist design with maximum functionality. 🎁 💡 Original Gift Ideas.🌐 Worldwide Shipping",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/563",
-      "createdAt": "2026-05-07T20:57:52Z",
-      "updatedAt": "2026-05-08T03:28:45Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "alekqss",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/115633777?v=4",
-        "url": "https://github.com/alekqss"
-      }
-    },
-    {
-      "id": 4365661162,
-      "number": 562,
-      "type": "issue",
-      "title": "New entry submission - SUP Norway",
-      "body": "New submission:\n\nName: SUP Norway\nUrl: https://supnorway.com/\nType: merchants\nSubType: holiday-travel\nDescription: Unique and exclusive stand up paddling adventures in the most magnificent nature Norway has to offer.\nTop line equipment, the most experienced guides, on the most beautiful UNESCO\nInsta: https://instagram.com/supnorway/\nYouTube: https://www.youtube.com/c/supnorway\nTwitter: @supnorway\n",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/562",
-      "createdAt": "2026-05-01T17:08:53Z",
-      "updatedAt": "2026-05-07T06:13:04Z",
-      "commentsCount": 1,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "RuffyTuffyMan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/187185273?v=4",
-        "url": "https://github.com/RuffyTuffyMan"
       }
     },
     {
