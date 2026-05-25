@@ -1,27 +1,8 @@
 {
-  "lastUpdated": "2026-05-25T02:45:37.253Z",
-  "totalIssues": 19,
-  "repoCount": 5,
+  "lastUpdated": "2026-05-25T09:53:58.757Z",
+  "totalIssues": 18,
+  "repoCount": 4,
   "repos": [
-    {
-      "id": 100711978,
-      "name": "btcpayserver",
-      "fullName": "btcpayserver/btcpayserver",
-      "description": "Accept Bitcoin payments. Free, open-source & self-hosted, Bitcoin payment processor. ",
-      "url": "https://github.com/btcpayserver/btcpayserver",
-      "language": "C#",
-      "topics": [
-        "bitcoin",
-        "bitcoin-payment-gateway",
-        "bitcoin-payment-processor",
-        "crowdfunding",
-        "lightning-network",
-        "payment-gateway",
-        "point-of-sale",
-        "selfhosted"
-      ],
-      "stars": 7580
-    },
     {
       "id": 101657836,
       "name": "btcpayserver-doc",
@@ -564,40 +545,6 @@
       }
     },
     {
-      "id": 3799539831,
-      "number": 7092,
-      "type": "issue",
-      "title": "Standardize Wallet View: Add Date Filter for Transactions",
-      "body": "**Context:**\nAs mentioned in [Issue #3954](https://github.com/btcpayserver/btcpayserver/issues/3954), there is a need to standardize the Wallet view so that it offers feature parity with other views in BTCPay Server.\n\n<img width=\"2297\" height=\"262\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2e36b1fd-c0ec-42dc-b64f-48f0eabf8ed3\" />\n\n\n**Request:**\nEnhance the Wallet transaction view to allow users to filter transactions by date in the same way as the Payment Requests and Invoices views. This would help users more easily locate relevant transactions and improve consistency across",
-      "url": "https://github.com/btcpayserver/btcpayserver/issues/7092",
-      "createdAt": "2026-01-10T11:16:33Z",
-      "updatedAt": "2026-04-11T08:43:53Z",
-      "commentsCount": 6,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "3de570"
-        },
-        {
-          "name": "Wallet",
-          "color": "97f4c1"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver",
-        "fullName": "btcpayserver/btcpayserver",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver"
-      },
-      "assignees": [],
-      "author": {
-        "login": "pavlenex",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/36959754?v=4",
-        "url": "https://github.com/pavlenex"
-      }
-    },
-    {
       "id": 3579096842,
       "number": 1531,
       "type": "issue",
@@ -707,36 +654,6 @@
     }
   ],
   "testerItems": [
-    {
-      "id": 3845970951,
-      "number": 7133,
-      "type": "pr",
-      "title": "feat(wallets): add transaction search and date filters.",
-      "body": "## Summary\r\nAdds invoice‑style search and date filtering to the wallet transactions view, so users can quickly locate transactions by TXID or time range. The UI mirrors the invoice/payment request patterns and filters apply consistently to infinite scroll and exports.\r\n\r\n## Problem\r\nPer #7091 and #7092 (and #3954), wallet transactions lacked:\r\n- A search bar for transaction IDs (and related metadata)\r\n- Date filtering controls consistent with invoices/payment requests\r\n- Combined filter support when paging or exporting\r\n\r\nThis made it harder to locate specific transactions and created UX incon",
-      "url": "https://github.com/btcpayserver/btcpayserver/pull/7133",
-      "createdAt": "2026-01-23T05:57:10Z",
-      "updatedAt": "2026-05-15T01:34:38Z",
-      "commentsCount": 22,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "User Testing",
-          "color": "F8ADDA"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver",
-        "fullName": "btcpayserver/btcpayserver",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver"
-      },
-      "assignees": [],
-      "author": {
-        "login": "Sup3rlativ3",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1555043?v=4",
-        "url": "https://github.com/Sup3rlativ3"
-      }
-    },
     {
       "id": 3825231620,
       "number": 7113,
