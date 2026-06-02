@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-02T10:10:21.834Z",
-  "totalIssues": 19,
+  "lastUpdated": "2026-06-02T20:37:39.957Z",
+  "totalIssues": 20,
   "repoCount": 5,
   "repos": [
     {
@@ -62,6 +62,40 @@
     }
   ],
   "issues": [
+    {
+      "id": 4572227906,
+      "number": 570,
+      "type": "issue",
+      "title": "New entry submission - Pay Sprey.Win",
+      "body": "New submission:\n\nName: Pay Sprey.Win\nUrl: https://pay.sprey.win\nTwitter: spreywin\nType: hosted-btcpay\nDescription: You can accept payments in BTC, USDT and other altcoins without any functionality limitations. Payment from 1 month. Grace period from 3 days. Pay.Sprey.Win is moving in the right.\n\n<img width=\"600\" height=\"300\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/916a7f16-ef15-4b08-90f5-40a12a4051da\" />",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/570",
+      "createdAt": "2026-06-02T14:18:02Z",
+      "updatedAt": "2026-06-02T16:13:40Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "MaxDarLtd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/150784839?v=4",
+        "url": "https://github.com/MaxDarLtd"
+      }
+    },
     {
       "id": 4566448979,
       "number": 569,
