@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-12T02:50:26.982Z",
-  "totalIssues": 20,
-  "repoCount": 5,
+  "lastUpdated": "2026-06-17T14:57:31.571Z",
+  "totalIssues": 18,
+  "repoCount": 4,
   "repos": [
     {
       "id": 101657836,
@@ -15,18 +15,6 @@
         "documentation"
       ],
       "stars": 418
-    },
-    {
-      "id": 249388671,
-      "name": "directory.btcpayserver.org",
-      "fullName": "btcpayserver/directory.btcpayserver.org",
-      "description": "BTCPay Server Directory - Merchants, Projects & Charities accepting Bitcoin",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org",
-      "language": "TypeScript",
-      "topics": [
-        "btcpayserver"
-      ],
-      "stars": 47
     },
     {
       "id": 563141684,
@@ -62,74 +50,6 @@
     }
   ],
   "issues": [
-    {
-      "id": 4572227906,
-      "number": 570,
-      "type": "issue",
-      "title": "New entry submission - Pay Sprey.Win",
-      "body": "New submission:\n\nName: Pay Sprey.Win\nUrl: https://pay.sprey.win\nTwitter: spreywin\nType: hosted-btcpay\nDescription: You can accept payments in BTC, USDT and other altcoins without any functionality limitations. Payment from 1 month. Grace period from 3 days. Pay.Sprey.Win is moving in the right.\n\n<img width=\"600\" height=\"300\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/916a7f16-ef15-4b08-90f5-40a12a4051da\" />",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/570",
-      "createdAt": "2026-06-02T14:18:02Z",
-      "updatedAt": "2026-06-02T16:13:40Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "MaxDarLtd",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/150784839?v=4",
-        "url": "https://github.com/MaxDarLtd"
-      }
-    },
-    {
-      "id": 4566448979,
-      "number": 569,
-      "type": "issue",
-      "title": "New entry submission - Tienda Espía México",
-      "body": "New submission:\n\nName: Tienda Espía México\nUrl: https://tiendaespia.com.mx/\nTwitter: TiendaEspiaMX\nType: merchants\nSubType: electronics\nDescription: Your trusted online store for cybersecurity, hacking, and espionage tools — shipping across Mexico.",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/569",
-      "createdAt": "2026-06-01T21:10:27Z",
-      "updatedAt": "2026-06-02T08:07:36Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "didiermx",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107448096?v=4",
-        "url": "https://github.com/didiermx"
-      }
-    },
     {
       "id": 4411489504,
       "number": 67,
@@ -632,8 +552,8 @@
       "body": "This page refers to a plugin not available anymore: https://docs.btcpayserver.org/Wabisabi\n\nAre there any plans to bring the plugin back or should this page better be removed?",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1531",
       "createdAt": "2025-11-02T07:59:22Z",
-      "updatedAt": "2026-04-13T20:58:59Z",
-      "commentsCount": 4,
+      "updatedAt": "2026-06-17T13:30:37Z",
+      "commentsCount": 5,
       "reactionCount": 0,
       "labels": [
         {
@@ -1204,8 +1124,8 @@
       "body": "This page refers to a plugin not available anymore: https://docs.btcpayserver.org/Wabisabi\n\nAre there any plans to bring the plugin back or should this page better be removed?",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1531",
       "createdAt": "2025-11-02T07:59:22Z",
-      "updatedAt": "2026-04-13T20:58:59Z",
-      "commentsCount": 4,
+      "updatedAt": "2026-06-17T13:30:37Z",
+      "commentsCount": 5,
       "reactionCount": 0,
       "labels": [
         {
