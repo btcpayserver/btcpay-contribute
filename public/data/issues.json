@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-06-20T19:14:01.227Z",
-  "totalIssues": 18,
-  "repoCount": 4,
+  "lastUpdated": "2026-06-30T19:45:28.146Z",
+  "totalIssues": 20,
+  "repoCount": 5,
   "repos": [
     {
       "id": 101657836,
@@ -15,6 +15,18 @@
         "documentation"
       ],
       "stars": 419
+    },
+    {
+      "id": 249388671,
+      "name": "directory.btcpayserver.org",
+      "fullName": "btcpayserver/directory.btcpayserver.org",
+      "description": "BTCPay Server Directory - Merchants, Projects & Charities accepting Bitcoin",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org",
+      "language": "TypeScript",
+      "topics": [
+        "btcpayserver"
+      ],
+      "stars": 47
     },
     {
       "id": 563141684,
@@ -50,6 +62,74 @@
     }
   ],
   "issues": [
+    {
+      "id": 4762001439,
+      "number": 582,
+      "type": "issue",
+      "title": "New entry submission - Packetra",
+      "body": "New submission:\n\nName: Packetra\nUrl: https://packetra.com\nTwitter: packetrahosting\nType: merchants\nSubType: domains-hosting-vpns\nDescription: Description: Privacy-focused hosting in Finland and Switzerland. No-KYC email-only signup, native BTC and Monero via self-hosted BTCPay. Shared, VPS, and dedicated servers with unmetered bandwidth.",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/582",
+      "createdAt": "2026-06-28T10:59:51Z",
+      "updatedAt": "2026-06-30T19:30:37Z",
+      "commentsCount": 1,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "packetrahosting-create",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/297612039?v=4",
+        "url": "https://github.com/packetrahosting-create"
+      }
+    },
+    {
+      "id": 4731453310,
+      "number": 580,
+      "type": "issue",
+      "title": "New entry submission - Spirit Fire Tobacco Co.",
+      "body": "Name: Spirit Fire Tobacco Co.\nUrl: https://spiritfiretobacco.com\nType: merchants\nSubType: adult\nDescription: Indigenous-owned online tobacco shop shipping tax-free native cigarettes, cigars, vapes and nicotine pouches across Canada. Accepts Bitcoin & Lightning via self-hosted BTCPay Server.\nTwitter: spiritfireco",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/580",
+      "createdAt": "2026-06-24T03:44:00Z",
+      "updatedAt": "2026-06-30T19:31:24Z",
+      "commentsCount": 0,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "daxkensington",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/261867517?v=4",
+        "url": "https://github.com/daxkensington"
+      }
+    },
     {
       "id": 4411489504,
       "number": 67,
