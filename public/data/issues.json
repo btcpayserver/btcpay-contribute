@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-30T19:45:28.146Z",
-  "totalIssues": 20,
+  "lastUpdated": "2026-07-03T13:47:33.746Z",
+  "totalIssues": 21,
   "repoCount": 5,
   "repos": [
     {
@@ -70,8 +70,8 @@
       "body": "New submission:\n\nName: Packetra\nUrl: https://packetra.com\nTwitter: packetrahosting\nType: merchants\nSubType: domains-hosting-vpns\nDescription: Description: Privacy-focused hosting in Finland and Switzerland. No-KYC email-only signup, native BTC and Monero via self-hosted BTCPay. Shared, VPS, and dedicated servers with unmetered bandwidth.",
       "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/582",
       "createdAt": "2026-06-28T10:59:51Z",
-      "updatedAt": "2026-06-30T19:30:37Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-07-02T17:30:23Z",
+      "commentsCount": 3,
       "reactionCount": 0,
       "labels": [
         {
@@ -128,6 +128,40 @@
         "login": "daxkensington",
         "avatarUrl": "https://avatars.githubusercontent.com/u/261867517?v=4",
         "url": "https://github.com/daxkensington"
+      }
+    },
+    {
+      "id": 4707536911,
+      "number": 579,
+      "type": "issue",
+      "title": "New entry submission - Chains ERP",
+      "body": "New submission:\n\nName: Chains ERP\nUrl: https://btcpay.chains-erp.com\nTwitter: chainserp\nType: hosted-btcpay\nCountry: GLOBAL\nDescription: Enterprise-grade Bitcoin payment infrastructure for modern businesses. Enabling invoices, payroll, and multi-currency treasury flows with instant BTC settlement. \nFully non-custody",
+      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/579",
+      "createdAt": "2026-06-20T16:31:25Z",
+      "updatedAt": "2026-07-03T09:24:49Z",
+      "commentsCount": 4,
+      "reactionCount": 0,
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "Submission-approved",
+          "color": "4ddd60"
+        }
+      ],
+      "repo": {
+        "name": "directory.btcpayserver.org",
+        "fullName": "btcpayserver/directory.btcpayserver.org",
+        "language": "TypeScript",
+        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
+      },
+      "assignees": [],
+      "author": {
+        "login": "chriis-fr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/122823108?v=4",
+        "url": "https://github.com/chriis-fr"
       }
     },
     {
@@ -206,8 +240,8 @@
       "body": "## Description\n\nBTCPay Server currently does not have an **Russian** translation. A Russian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Russian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/russian.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/65",
       "createdAt": "2026-05-09T06:33:17Z",
-      "updatedAt": "2026-05-09T08:35:02Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-07-02T06:36:12Z",
+      "commentsCount": 5,
       "reactionCount": 1,
       "labels": [
         {
@@ -842,8 +876,8 @@
       "body": "## Description\n\nBTCPay Server currently does not have an **Russian** translation. A Russian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Russian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/russian.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/65",
       "createdAt": "2026-05-09T06:33:17Z",
-      "updatedAt": "2026-05-09T08:35:02Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-07-02T06:36:12Z",
+      "commentsCount": 5,
       "reactionCount": 1,
       "labels": [
         {
