@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T13:47:33.746Z",
+  "lastUpdated": "2026-07-04T13:06:54.876Z",
   "totalIssues": 21,
   "repoCount": 5,
   "repos": [
@@ -14,7 +14,7 @@
         "btcpayserver",
         "documentation"
       ],
-      "stars": 419
+      "stars": 420
     },
     {
       "id": 249388671,
@@ -70,8 +70,8 @@
       "body": "New submission:\n\nName: Packetra\nUrl: https://packetra.com\nTwitter: packetrahosting\nType: merchants\nSubType: domains-hosting-vpns\nDescription: Description: Privacy-focused hosting in Finland and Switzerland. No-KYC email-only signup, native BTC and Monero via self-hosted BTCPay. Shared, VPS, and dedicated servers with unmetered bandwidth.",
       "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/582",
       "createdAt": "2026-06-28T10:59:51Z",
-      "updatedAt": "2026-07-02T17:30:23Z",
-      "commentsCount": 3,
+      "updatedAt": "2026-07-03T22:23:22Z",
+      "commentsCount": 4,
       "reactionCount": 0,
       "labels": [
         {
@@ -344,7 +344,7 @@
       "createdAt": "2026-05-09T06:29:54Z",
       "updatedAt": "2026-05-09T08:34:47Z",
       "commentsCount": 1,
-      "reactionCount": 1,
+      "reactionCount": 2,
       "labels": [
         {
           "name": "good first issue",
@@ -980,7 +980,7 @@
       "createdAt": "2026-05-09T06:29:54Z",
       "updatedAt": "2026-05-09T08:34:47Z",
       "commentsCount": 1,
-      "reactionCount": 1,
+      "reactionCount": 2,
       "labels": [
         {
           "name": "good first issue",
