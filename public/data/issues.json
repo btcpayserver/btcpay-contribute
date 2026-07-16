@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-07-16T07:59:58.900Z",
-  "totalIssues": 19,
-  "repoCount": 5,
+  "lastUpdated": "2026-07-16T13:26:46.922Z",
+  "totalIssues": 18,
+  "repoCount": 4,
   "repos": [
     {
       "id": 101657836,
@@ -15,18 +15,6 @@
         "documentation"
       ],
       "stars": 420
-    },
-    {
-      "id": 249388671,
-      "name": "directory.btcpayserver.org",
-      "fullName": "btcpayserver/directory.btcpayserver.org",
-      "description": "BTCPay Server Directory - Merchants, Projects & Charities accepting Bitcoin",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org",
-      "language": "TypeScript",
-      "topics": [
-        "btcpayserver"
-      ],
-      "stars": 47
     },
     {
       "id": 563141684,
@@ -62,40 +50,6 @@
     }
   ],
   "issues": [
-    {
-      "id": 4707536911,
-      "number": 579,
-      "type": "issue",
-      "title": "New entry submission - Chains ERP",
-      "body": "New submission:\n\nName: Chains ERP\nUrl: https://btcpay.chains-erp.com\nTwitter: chainserp\nType: hosted-btcpay\nCountry: GLOBAL\nDescription: Enterprise-grade Bitcoin payment infrastructure for modern businesses. Enabling invoices, payroll, and multi-currency treasury flows with instant BTC settlement. \nFully non-custody",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/579",
-      "createdAt": "2026-06-20T16:31:25Z",
-      "updatedAt": "2026-07-03T09:24:49Z",
-      "commentsCount": 4,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "chriis-fr",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/122823108?v=4",
-        "url": "https://github.com/chriis-fr"
-      }
-    },
     {
       "id": 4411489504,
       "number": 67,
