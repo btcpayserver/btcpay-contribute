@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-04T13:06:54.876Z",
-  "totalIssues": 21,
+  "lastUpdated": "2026-07-16T07:59:58.900Z",
+  "totalIssues": 19,
   "repoCount": 5,
   "repos": [
     {
@@ -62,74 +62,6 @@
     }
   ],
   "issues": [
-    {
-      "id": 4762001439,
-      "number": 582,
-      "type": "issue",
-      "title": "New entry submission - Packetra",
-      "body": "New submission:\n\nName: Packetra\nUrl: https://packetra.com\nTwitter: packetrahosting\nType: merchants\nSubType: domains-hosting-vpns\nDescription: Description: Privacy-focused hosting in Finland and Switzerland. No-KYC email-only signup, native BTC and Monero via self-hosted BTCPay. Shared, VPS, and dedicated servers with unmetered bandwidth.",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/582",
-      "createdAt": "2026-06-28T10:59:51Z",
-      "updatedAt": "2026-07-03T22:23:22Z",
-      "commentsCount": 4,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "packetrahosting-create",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/297612039?v=4",
-        "url": "https://github.com/packetrahosting-create"
-      }
-    },
-    {
-      "id": 4731453310,
-      "number": 580,
-      "type": "issue",
-      "title": "New entry submission - Spirit Fire Tobacco Co.",
-      "body": "Name: Spirit Fire Tobacco Co.\nUrl: https://spiritfiretobacco.com\nType: merchants\nSubType: adult\nDescription: Indigenous-owned online tobacco shop shipping tax-free native cigarettes, cigars, vapes and nicotine pouches across Canada. Accepts Bitcoin & Lightning via self-hosted BTCPay Server.\nTwitter: spiritfireco",
-      "url": "https://github.com/btcpayserver/directory.btcpayserver.org/issues/580",
-      "createdAt": "2026-06-24T03:44:00Z",
-      "updatedAt": "2026-06-30T19:31:24Z",
-      "commentsCount": 0,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        },
-        {
-          "name": "Submission-approved",
-          "color": "4ddd60"
-        }
-      ],
-      "repo": {
-        "name": "directory.btcpayserver.org",
-        "fullName": "btcpayserver/directory.btcpayserver.org",
-        "language": "TypeScript",
-        "url": "https://github.com/btcpayserver/directory.btcpayserver.org"
-      },
-      "assignees": [],
-      "author": {
-        "login": "daxkensington",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/261867517?v=4",
-        "url": "https://github.com/daxkensington"
-      }
-    },
     {
       "id": 4707536911,
       "number": 579,
@@ -240,8 +172,8 @@
       "body": "## Description\n\nBTCPay Server currently does not have an **Russian** translation. A Russian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Russian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/russian.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/65",
       "createdAt": "2026-05-09T06:33:17Z",
-      "updatedAt": "2026-07-02T06:36:12Z",
-      "commentsCount": 5,
+      "updatedAt": "2026-07-08T19:54:17Z",
+      "commentsCount": 6,
       "reactionCount": 1,
       "labels": [
         {
@@ -876,8 +808,8 @@
       "body": "## Description\n\nBTCPay Server currently does not have an **Russian** translation. A Russian translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Russian speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/russian.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/65",
       "createdAt": "2026-05-09T06:33:17Z",
-      "updatedAt": "2026-07-02T06:36:12Z",
-      "commentsCount": 5,
+      "updatedAt": "2026-07-08T19:54:17Z",
+      "commentsCount": 6,
       "reactionCount": 1,
       "labels": [
         {
