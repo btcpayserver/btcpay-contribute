@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T20:43:08.240Z",
+  "lastUpdated": "2026-10-02T17:11:03.884Z",
   "totalIssues": 17,
   "repoCount": 4,
   "repos": [
@@ -14,7 +14,7 @@
         "btcpayserver",
         "documentation"
       ],
-      "stars": 426
+      "stars": 425
     },
     {
       "id": 563141684,
@@ -632,7 +632,7 @@
       "body": "Fixes #5612.\n\nClarifies the LND Seed Backup page copy to set correct expectations for recovery steps under some deployments (e.g. BTCPay Server Docker), where LND may be initialized/unlocked automatically and recovery may require an interactive shell (TTY) and temporarily disabling automatic init/unlock.\n\nChanges:\n- Add a short clarification paragraph on the LND Seed Backup page.\n- Add the new string to Translations.Default.cs for localization support.\n\nHow to verify:\n- Server → Services → LND Seed Backup: confirm the new paragraph appears above the link to LND's recovery documentation.\n\nNote:",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7113",
       "createdAt": "2026-01-17T13:58:16Z",
-      "updatedAt": "2026-05-07T03:16:50Z",
+      "updatedAt": "2026-10-02T02:17:23Z",
       "commentsCount": 7,
       "reactionCount": 0,
       "labels": [
