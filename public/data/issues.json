@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T21:03:01.954Z",
+  "lastUpdated": "2026-10-29T03:46:35.593Z",
   "totalIssues": 16,
   "repoCount": 4,
   "repos": [
@@ -24,7 +24,7 @@
       "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
       "language": "C#",
       "topics": [],
-      "stars": 32
+      "stars": 33
     },
     {
       "id": 657155945,
@@ -58,8 +58,8 @@
       "body": "## Description\n\nBTCPay Server currently does not have an **Turkish** translation. A Turkish translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Turkish speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/turkish.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/67",
       "createdAt": "2026-05-09T06:35:43Z",
-      "updatedAt": "2026-05-09T08:35:23Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-10-23T06:38:20Z",
+      "commentsCount": 2,
       "reactionCount": 1,
       "labels": [
         {
@@ -602,8 +602,8 @@
       "body": "Fixes #5612.\n\nClarifies the LND Seed Backup page copy to set correct expectations for recovery steps under some deployments (e.g. BTCPay Server Docker), where LND may be initialized/unlocked automatically and recovery may require an interactive shell (TTY) and temporarily disabling automatic init/unlock.\n\nChanges:\n- Add a short clarification paragraph on the LND Seed Backup page.\n- Add the new string to Translations.Default.cs for localization support.\n\nHow to verify:\n- Server → Services → LND Seed Backup: confirm the new paragraph appears above the link to LND's recovery documentation.\n\nNote:",
       "url": "https://github.com/btcpayserver/btcpayserver/pull/7113",
       "createdAt": "2026-01-17T13:58:16Z",
-      "updatedAt": "2026-10-02T02:17:23Z",
-      "commentsCount": 7,
+      "updatedAt": "2026-10-28T18:02:38Z",
+      "commentsCount": 9,
       "reactionCount": 0,
       "labels": [
         {
@@ -634,8 +634,8 @@
       "body": "## Description\n\nBTCPay Server currently does not have an **Turkish** translation. A Turkish translation has been partially generated using AI, but it needs to be reviewed and corrected by a native or fluent Turkish speaker before it can be merged.\nThis issue is open for anyone who would like to contribute one.\n\n## What needs to be done\n- [ ] Go through [the file](https://github.com/btcpayserver/btcpayserver-translator/blob/main/translations/turkish.json) and correct any mistranslations  \n- [ ] Make sure Bitcoin/Lightning-specific terms are accurate\n- [ ] Ensure all placeholders are preserved u",
       "url": "https://github.com/btcpayserver/btcpayserver-translator/issues/67",
       "createdAt": "2026-05-09T06:35:43Z",
-      "updatedAt": "2026-05-09T08:35:23Z",
-      "commentsCount": 1,
+      "updatedAt": "2026-10-23T06:38:20Z",
+      "commentsCount": 2,
       "reactionCount": 1,
       "labels": [
         {
