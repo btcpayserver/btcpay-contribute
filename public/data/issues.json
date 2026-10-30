@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-10-29T03:46:35.593Z",
-  "totalIssues": 16,
-  "repoCount": 4,
+  "lastUpdated": "2026-10-30T17:38:23.645Z",
+  "totalIssues": 15,
+  "repoCount": 3,
   "repos": [
     {
       "id": 101657836,
@@ -15,16 +15,6 @@
         "documentation"
       ],
       "stars": 428
-    },
-    {
-      "id": 563141684,
-      "name": "btcpayserver-plugin-builder",
-      "fullName": "btcpayserver/btcpayserver-plugin-builder",
-      "description": "A server building plugins for BTCPay Server",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder",
-      "language": "C#",
-      "topics": [],
-      "stars": 33
     },
     {
       "id": 657155945,
@@ -388,40 +378,6 @@
         "login": "ABC-8888",
         "avatarUrl": "https://avatars.githubusercontent.com/u/46196260?v=4",
         "url": "https://github.com/ABC-8888"
-      }
-    },
-    {
-      "id": 4152869573,
-      "number": 185,
-      "type": "issue",
-      "title": "[Bug]  Admin primary owner list changes with pagination",
-      "body": "## Description \n\nOn /admin/plugins, the Email Primary Owners button generates a different email list depending on the current table page. It should include primary owners from all plugins matching the current filters, not just the items shown on the current page.",
-      "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder/issues/185",
-      "createdAt": "2026-03-27T13:52:15Z",
-      "updatedAt": "2026-05-07T15:32:16Z",
-      "commentsCount": 3,
-      "reactionCount": 0,
-      "labels": [
-        {
-          "name": "bug",
-          "color": "d73a4a"
-        },
-        {
-          "name": "good first issue",
-          "color": "7057ff"
-        }
-      ],
-      "repo": {
-        "name": "btcpayserver-plugin-builder",
-        "fullName": "btcpayserver/btcpayserver-plugin-builder",
-        "language": "C#",
-        "url": "https://github.com/btcpayserver/btcpayserver-plugin-builder"
-      },
-      "assignees": [],
-      "author": {
-        "login": "thgO-O",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/107907441?v=4",
-        "url": "https://github.com/thgO-O"
       }
     },
     {
