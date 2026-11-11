@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T17:38:23.645Z",
+  "lastUpdated": "2026-11-11T23:55:14.537Z",
   "totalIssues": 15,
   "repoCount": 3,
   "repos": [
@@ -14,7 +14,7 @@
         "btcpayserver",
         "documentation"
       ],
-      "stars": 428
+      "stars": 429
     },
     {
       "id": 657155945,
@@ -36,7 +36,7 @@
       "topics": [
         "hacktoberfest"
       ],
-      "stars": 6
+      "stars": 7
     }
   ],
   "issues": [
@@ -418,7 +418,7 @@
       "body": "Our documentation at https://docs.btcpayserver.org/Walkthrough is slightly outdated.\n\nThe goal of that page is to walk users through each item in the sidebar in the order it appears, give a short explanation of what it does, and link to a dedicated page where they can learn more about that feature.\nHere’s the proposed approach for refactoring this page:\n\n1. Set up a local BTCPay Server instance if you do not already have access to a server with admin permissions. This is important because some sidebar features are only visible to admins. We should also highlight this in the documentation, sinc",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1559",
       "createdAt": "2026-03-18T11:11:36Z",
-      "updatedAt": "2026-08-21T21:31:54Z",
+      "updatedAt": "2026-11-09T20:48:13Z",
       "commentsCount": 7,
       "reactionCount": 0,
       "labels": [
@@ -960,7 +960,7 @@
       "body": "Our documentation at https://docs.btcpayserver.org/Walkthrough is slightly outdated.\n\nThe goal of that page is to walk users through each item in the sidebar in the order it appears, give a short explanation of what it does, and link to a dedicated page where they can learn more about that feature.\nHere’s the proposed approach for refactoring this page:\n\n1. Set up a local BTCPay Server instance if you do not already have access to a server with admin permissions. This is important because some sidebar features are only visible to admins. We should also highlight this in the documentation, sinc",
       "url": "https://github.com/btcpayserver/btcpayserver-doc/issues/1559",
       "createdAt": "2026-03-18T11:11:36Z",
-      "updatedAt": "2026-08-21T21:31:54Z",
+      "updatedAt": "2026-11-09T20:48:13Z",
       "commentsCount": 7,
       "reactionCount": 0,
       "labels": [
